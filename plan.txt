@@ -1,0 +1,437 @@
+Skip to content
+Chat history
+
+You said:
+Uploaded image
+Create a tool to create multiple choice diagnosis quizzes like this.
+ChatGPT said:
+Sure, I’ll draft a tool outline that helps you create multiple choice diagnosis quizzes similar to the one in the image. I’ll include the essential components without diving into the prose.
+
+
+Worked for 3 minutes
+Here’s an outline for building a tool that generates multiple‑choice diagnosis quizzes similar to the example you provided. It assumes the tool will handle somatic symptom and related disorders (e.g., somatic symptom disorder, illness anxiety disorder, functional neurological symptom disorder).
+
+Goal
+Develop a program or script that accepts a set of clinical case descriptions and diagnosis categories, then produces formatted multiple‑choice questions where users must match each case to the correct diagnosis.
+
+Essential Components
+Data Model
+Diagnosis list – A list of possible disorders (e.g., somatic symptom disorder, illness anxiety disorder, functional neurological symptom disorder). Definitions from trusted sources (e.g., American Psychiatric Association) can help ensure accuracy
+psychiatry.org
+psychiatry.org
+.
+
+Case descriptions – Narratives describing individual patients’ symptoms and behaviours; each case is linked to the correct diagnosis.
+
+Distractors – Additional incorrect diagnoses to populate multiple‑choice options.
+
+Quiz Generator
+Input handler – Reads or receives case descriptions and diagnosis options.
+
+Randomizer – Shuffles question order and answer options to reduce pattern recognition.
+
+Formatter – Formats each question with a question number and labeled choices (a, b, c, etc.), and optionally stores the correct answer key for scoring.
+
+Scoring module (optional) – Accepts user responses, compares them with the answer key, and tallies correct answers.
+
+User Interface
+Console/CLI – For simple use: display questions and collect responses in a terminal window.
+
+Web interface – Optionally build a small web page using Flask or similar frameworks to display quizzes in a browser.
+
+CSV/JSON input and output – Allow instructors to provide case data in structured files and receive answer keys or results.
+
+Implementation Steps
+Define Diagnosis Categories
+Create a list or dictionary with the diagnosis names and brief criteria summaries for reference. For example, somatic symptom disorder involves excessive focus on distressing physical symptoms
+psychiatry.org
+; illness anxiety disorder involves preoccupation with having or getting an illness, usually without significant physical symptoms
+psychiatry.org
+; functional neurological symptom disorder (conversion disorder) features neurological symptoms affecting movement or senses with no medical explanation
+mayoclinic.org
+.
+
+Collect or Input Cases
+Gather case descriptions (e.g., from textbooks or clinical examples). Each case should be stored with its correct diagnosis.
+
+Create a Question Builder Function
+
+Accept a case description and the list of diagnoses.
+
+Randomly order the answer options.
+
+Ensure the correct diagnosis is included among the options.
+
+Assemble the Quiz
+
+Loop through all cases, generating a formatted question for each.
+
+Store the correct option label (e.g., “a”, “b”, “c”) for later scoring.
+
+Output the Quiz
+
+Print to console, write to a text file, or render on a web page.
+
+For self‑grading quizzes, include a way to reveal the answer key after completion.
+
+Add Optional Features
+
+Difficulty settings (vary number of options or include more subtle distractors).
+
+Timer or progress tracking.
+
+Ability to accept new diagnoses and cases through a user interface.
+
+Example Structure (Simplified)
+diagnoses = ["somatic symptom disorder", "illness anxiety disorder", "functional neurological symptom disorder"]
+
+cases = [
+    {
+        "description": "A young adult fixates on physical symptoms like chest pain and headaches, spends excessive time worrying about them, and has seen many doctors despite reassurance.",
+        "correct": "somatic symptom disorder"
+    },
+    {
+        "description": "An individual has no significant physical complaints but constantly worries that they have a serious illness, frequently checks for signs of disease, and reads medical reports obsessively.",
+        "correct": "illness anxiety disorder"
+    },
+    ...
+]
+
+# Pseudocode for quiz generation
+for case in cases:
+    shuffled_options = random_shuffle(diagnoses)
+    display_question(case['description'], shuffled_options)
+    store_answer(case['correct'])
+This outline provides a framework for building a customizable multiple‑choice diagnosis quiz generator. You can implement it in Python or another language, and expand it to handle more disorders or a broader range of case studies as needed.
+
+
+
+
+Sources
+You said:
+Configurability would be good.  So it's easy to share and add. 
+ChatGPT said:
+
+Worked for 8 seconds
+Here are a few ways to incorporate configurability so the quiz tool can be easily shared and extended:
+
+External Data Files: Store case descriptions and diagnoses in editable formats such as JSON, CSV, or YAML. This allows anyone to update or add new cases and disorder categories without modifying the code.
+
+Dynamic Loading: Build the program to read these external files at runtime. That way, adding a new category or case only requires editing the data file, and the tool will automatically recognize and include the new entries.
+
+Configurable Options: Allow users to set parameters such as the number of answer choices per question, whether to randomize question order, or whether to include multiple correct answers. These can be passed as command-line arguments, environment variables, or entries in a configuration file.
+
+Modular Design: Separate the quiz logic, data loading, and user interface into distinct modules. For example, one module reads the data files, another generates questions, and a third handles user interaction. This separation makes it straightforward to replace or modify individual parts without affecting the rest.
+
+Exporting: Include functionality to export quizzes and results as shareable formats (e.g., PDF or CSV), or host them via a simple web interface. This way, other users can take or administer the quizzes without needing access to the source code.
+
+This approach ensures that new case studies and diagnostic categories can be added easily, and that the tool remains flexible and maintainable over time.
+
+You said:
+Auto response
+Continue
+ChatGPT said:
+
+Worked for 14 seconds
+Building on the configurability aspects, consider these additional details:
+
+Data File Structure
+
+Use a consistent schema for your case descriptions. For example, a JSON file could have an array of objects, where each object contains a case_text, a correct_diagnosis, and optionally a list of categories or tags. This makes it easy to parse and extend.
+
+Example structure:
+
+[
+  {
+    "case_text": "24-year-old with excessive health-related fears and frequent doctor visits.",
+    "correct_diagnosis": "somatic symptom disorder"
+  },
+  {
+    "case_text": "Individual fixated on contracting illnesses despite minimal symptoms.",
+    "correct_diagnosis": "illness anxiety disorder"
+  }
+]
+Pluggable Content Modules
+
+Create separate files for categories or topics. For instance, one module might cover somatic symptom and related disorders (drawing on definitions like those from the DSM-5
+psychiatry.org
+psychiatry.org
+), while another might cover mood disorders.
+
+At runtime, the quiz generator can load any module specified by the user. This reduces duplication and allows others to develop their own modules.
+
+User Configuration
+
+Accept a configuration file or command-line flags to adjust settings. Examples include:
+
+--file=path/to/data.json to specify the question set.
+
+--num-choices=4 to choose how many options per question.
+
+--shuffle=true or --shuffle=false to control randomization.
+
+You can also define default values so the tool works even if no configuration is provided.
+
+Editing Interface
+
+For broader accessibility, provide a simple form-based web interface or GUI (e.g., built with Tkinter, Electron, or a lightweight web framework). This allows users without programming experience to add or modify cases and categories.
+
+You might let users import or export their quizzes via the interface in the chosen structured format.
+
+Sharing and Version Control
+
+Encourage sharing via version control systems like GitHub or GitLab. Users can fork or clone the repository and add their own case files.
+
+Maintain documentation that explains how to contribute new cases and categories, the expected file structure, and guidelines for writing clear case descriptions.
+
+Localization and Accessibility
+
+If the tool will be used in different regions or languages, design the data files to separate content from logic so translations can be added easily.
+
+Follow accessibility guidelines (e.g., labeling fields, supporting screen readers) in any user interface.
+
+By adopting these practices, the tool becomes flexible, extensible, and accessible to a wide audience. Users can tailor it to various topics or languages while maintaining a consistent and manageable core.
+
+
+
+Sources
+You said:
+Create datasets across categories of the dsm 5 tr.
+
+Then allow configuration to specify combinations of dataset and categories. There's should be a category for all disorders. 
+ChatGPT said:
+To proceed with creating DSM-5-TR datasets, could you clarify the following:
+
+What level of detail should each disorder include? For example:
+
+Diagnostic criteria
+
+Common symptoms
+
+Case vignettes/examples
+
+ICD/DSM codes
+
+Should the datasets include:
+
+Just adult presentations?
+
+Or also child/adolescent and geriatric variants?
+
+What format do you prefer for the datasets? (e.g., JSON, CSV, YAML)
+
+Are you looking for summaries suitable for quizzes, educational study, or clinical reference?
+
+Once I have this, I’ll create structured datasets by DSM-5-TR category, and include a master list that allows selection by category or full inclusion.
+
+You said:
+A case study.  A few paragraphs with MSE and narrative. 
+
+Json
+
+Adult and children
+
+Clinical detail and language
+ChatGPT said:
+Got it. I’ll begin compiling DSM-5-TR-aligned case studies—covering both adult and pediatric presentations—with clinical language, narrative detail, and mental status examinations (MSEs), organized by diagnostic category.
+
+Each case will be structured in JSON format and include a field for diagnosis, age group, category, and configurable metadata for quiz generation.
+
+I’ll let you know once the dataset is ready for review.
+
+DSM-5-TR Case Study Dataset in JSON Format
+
+DSM-5-TR Case Studies Dataset (JSON Format)
+The following JSON dataset contains detailed clinical case studies for disorders spanning all major diagnostic categories of the DSM-5-TR. In DSM-5-TR, mental disorders are organized into broad categories (e.g. Neurodevelopmental Disorders, Depressive Disorders, Anxiety Disorders, etc.) that reflect similarities in symptoms and typical age of onset
+psychiatry.org
+psychiatry.org
+. Each entry in the dataset is a self-contained case vignette designed for diagnostic reasoning practice, and includes:
+Narrative: A clinical history and presentation of the patient’s symptoms (in professional clinical language).
+MSE: A Mental Status Examination detailing the patient’s appearance, behavior, mood/affect, thought process/content, perception, cognition, insight, and judgment as observed.
+Diagnosis: The correct DSM-5-TR diagnosis for the case.
+Age_group: Flag indicating whether the case is an adult or child/adolescent presentation.
+Category: The DSM-5-TR diagnostic category of the disorder (for filtering by content area).
+Complexity: A relative difficulty level of the case (e.g. “easy”, “moderate”, “high”) to support quiz configuration.
+Each case is represented as a JSON object. The cases cover a diverse range of ages (children, adolescents, adults, and an older adult) and presentations, ensuring a comprehensive dataset for creating multiple-choice diagnostic quizzes. The dataset structure is extendable, so additional cases can be added following the same format.
+[
+  {
+    "case_id": "ND-1",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "child",
+    "diagnosis": "Autism Spectrum Disorder",
+    "narrative": "A 8-year-old boy is brought to a pediatric psychologist due to concerns about his social development. His parents report that he has had difficulty making friends and often does not respond when others try to engage him. As a toddler, he had delayed language milestones—he spoke his first words around age 3 and still primarily uses short, simple sentences. In school, he rarely initiates interactions with peers and becomes upset with minor changes in his routine. He exhibits repetitive behaviors, such as hand-flapping when excited and insisting on eating the same foods every day. There is no history of significant medical problems, and his intellectual functioning appears average, although his teacher notes he struggles with figurative language and understanding social cues.",
+    "MSE": "On examination, the child is neatly dressed and groomed, with a blank facial expression and limited eye contact. He does not spontaneously offer information, answering questions with brief responses. Speech is monotonic and concrete. His mood appears neutral, and affect is notably restricted in range. Thought processes are goal-directed but noticeably focused on narrow topics (he repeatedly brings up facts about trains regardless of the question asked). There is no evidence of hallucinations or delusions. Cognitively, he is oriented to person, place, and time. Insight into his social difficulties is limited, and his judgment in age-appropriate social situations appears impaired.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "PSY-1",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Schizophrenia",
+    "narrative": "A 22-year-old man is evaluated after his college roommates grew concerned about his behavior. Over the past year, he has become increasingly withdrawn and has neglected his hygiene. He often mutters to himself and is heard having angry conversations when he is alone in his room. He believes that the television broadcasts secret messages meant specifically for him, and he has voiced suspicion that his professors are part of a conspiracy to fail him. His academic performance has declined sharply. There is no evidence of substance use, and medical workup is unremarkable.",
+    "MSE": "The patient appears disheveled, with poor grooming and wearing mismatched, dirty clothes. He maintains minimal eye contact and his facial expression is flat. He occasionally pauses and turns his head as if listening to unseen others. Speech is low in volume, with some latency in response. His mood is anxious, and affect is flat with limited reactivity. Thought processes are disorganized, demonstrated by loose associations at times. Thought content is notable for paranoid delusions (believing others are plotting against him). He also endorses auditory hallucinations (voices commenting on his actions). No immediate suicidal or homicidal ideation is present. He is alert and oriented, but demonstrates impaired concentration. Insight is poor as he does not recognize his beliefs as abnormal, and judgment is impaired.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "BP-1",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Bipolar I Disorder",
+    "narrative": "A 30-year-old female is brought to the emergency department by her family due to a week of unusual behavior. She has been sleeping only 2-3 hours per night yet reports feeling full of energy. Her family describes her mood as 'extremely euphoric and irritable' at times. She has been talking rapidly, jumping from topic to topic, and at one point spent thousands of dollars on luxury items she cannot afford. She also impulsively quit her job to start a nonexistent business. There are brief moments where she becomes suspicious that strangers are spying on her, but these ideas are fleeting. She has no known medical issues, and toxicology screening is negative.",
+    "MSE": "The patient is dressed in flamboyant, brightly colored clothing and wears excessive makeup. She is restless, frequently pacing the room. Speech is pressured, loud, and difficult to interrupt. Her mood is elevated, and she alternates between enthusiastic laughter and irritability when redirected. Affect is expansive and labile. Thought process is markedly tangential and flighty, with rapid shifts in topic. Thought content reveals grandiose ideas—she believes she has a special talent that will make her millions, despite lack of evidence. No sustained hallucinations or fixed delusions are elicited, though she exhibits some paranoid ideation under stress. She is fully oriented, and her attention is intact, but insight is severely limited (she does not acknowledge that her behaviors are problematic). Judgment is impaired, as evidenced by her reckless spending and life decisions.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "DEP-1",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 45-year-old male presents to the clinic with a two-month history of worsening mood. He reports feeling sad nearly every day and has lost interest in his usual hobbies, including playing guitar and going out with friends. His energy is low and he often stays in bed for hours. His appetite has markedly decreased, and he has unintentionally lost 10 pounds in the last month. He struggles to concentrate at work and has been making mistakes. He admits to feelings of worthlessness and guilt, blaming himself for being 'weak.' He denies any history of manic or hypomanic episodes. He has had some fleeting thoughts that life isn’t worth living but denies any specific plan or intent to harm himself.",
+    "MSE": "The patient appears slightly unkempt, with a slouched posture and minimal spontaneous movement. He makes limited eye contact. Speech is soft, slow, and lacking in spontaneity. Mood is described as depressed, and affect is constricted, congruent with his mood. Thought processes are organized and goal-directed, with no evidence of hallucinations or delusions. However, content is notable for self-deprecating and hopeless thoughts. He denies current suicidal ideation or intent. He is fully oriented and memory is intact, though concentration is mildly impaired (he has difficulty performing serial sevens). Insight is fair—he recognizes he is depressed—but he feels hopeless about improvement. Judgment is not impaired in the context of the interview, but his pervasive pessimism may affect decision-making.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "ANX-1",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Panic Disorder",
+    "narrative": "A 26-year-old female comes to her primary care physician reporting episodes of sudden, intense fear. She describes experiencing abrupt surges of panic that peak within minutes, during which she feels palpitations, sweating, trembling, and short of breath. She often thinks she is about to die or lose control during these attacks. These episodes have been occurring unpredictably over the past three months. As a result, she has become fearful of having attacks in public places and has started avoiding going to the grocery store and driving on the highway. She reports constant worry about when the next attack will happen. No substance use or medical causes are identified.",
+    "MSE": "The patient appears mildly anxious and fidgets with her hands. She is cooperative and maintains adequate eye contact. Speech is normal in rate and volume, but her voice trembles slightly when discussing her symptoms. Her mood is 'fearful and worried,' and affect is anxious and reactive. Thought process is coherent. Thought content reveals an ongoing fear of dying or 'going crazy' during panic attacks, but she has no delusions or hallucinations. She denies suicidal ideation. She is alert and oriented, with intact memory and concentration. Insight is good, as she recognizes that her fear is excessive, and she is seeking help. Judgment is intact; she has avoided dangerous situations when feeling panicked.",
+    "complexity": "easy"
+  },
+  {
+    "case_id": "OCD-1",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Obsessive-Compulsive Disorder",
+    "narrative": "An 18-year-old male college student is referred for evaluation due to time-consuming rituals. He reports that for the past year he has been haunted by intrusive fears of contamination, specifically worrying that everyday objects are covered in germs that could make him or others sick. To relieve the anxiety, he engages in lengthy handwashing routines—sometimes spending over an hour washing his hands in scalding water. He also cleans his dorm room surfaces repeatedly and refuses to touch door handles without a paper towel. These behaviors have begun to interfere with his class attendance and social life. He recognizes that his fears may be irrational, but he feels unable to control the urges to perform these rituals.",
+    "MSE": "The patient is casually dressed and appears slightly fatigued. There are visible raw, red patches on his hands. He is polite and cooperative during the interview. Speech is articulate and normal in rate. His mood is described as 'anxious,' and his affect is tense but appropriate to the discussion. Thought process is linear and goal-directed. Thought content is remarkable for persistent obsessive fears of contamination and accompanying compulsive behaviors (handwashing and cleaning) that he acknowledges as excessive. He denies any hallucinations or delusional beliefs outside of these contamination fears. No suicidal ideation is present. He is fully oriented, with intact attention and memory. Insight is partial—he knows his fears are irrational, yet feels compelled to act on them. Judgment is fair; aside from his compulsive behaviors, he has made appropriate decisions such as seeking help.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "TS-1",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 34-year-old male Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. He served as a combat soldier and was involved in several firefights, during which he witnessed the deaths of fellow soldiers. Since returning home two years ago, he has had frequent nightmares of combat scenes and wakes up in a sweat. He experiences flashbacks triggered by loud noises that remind him of gunfire, during which he feels as if he is back in that situation. He avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. He drinks alcohol nightly to 'calm his nerves,' though denies using other substances.",
+    "MSE": "The patient is alert and fully oriented, appearing tense with a guarded demeanor. He sits with his back to the wall and scans the environment frequently. Speech is generally normal but he becomes terse and agitated when discussing his combat experiences. Mood is described as 'on edge,' and affect is anxious, constricted, with moments of intense distress when recounting trauma. Thought process is goal-directed. Thought content reveals persistent intrusive memories of traumatic events and hypervigilant beliefs (for example, he insists on checking all doors and windows at home repeatedly). He denies current hallucinations or delusions, though during flashbacks he temporarily loses touch with the present moment. No suicidal or homicidal ideation is reported. Cognitive examination is grossly intact. Insight is partial—he recognizes his reactions are related to trauma but feels helpless to control them. Judgment is acceptable in most areas, though his heavy alcohol use indicates some poorly adaptive coping.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "DISS-1",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "Dissociative Identity Disorder",
+    "narrative": "A 28-year-old female is admitted to a psychiatric unit after episodes of memory loss and unusual behavior reported by her friends. She has a history of severe childhood physical and emotional abuse. Over the past year, she has experienced gaps in recall of everyday events and important personal information. Friends say that at times she will speak in a childlike voice and seem to have a different name, and other times she becomes aggressive and uses profane language that is very uncharacteristic of her usual demeanor. She often does not remember these behaviors afterward. She has found personal items in her apartment that she does not recall buying. There is no evidence of substance use, and neurological evaluation found no medical cause for her symptoms.",
+    "MSE": "The patient is a young adult female who appears her stated age, with a tense posture and wary expression. She is oriented to the hospital setting and date. At the beginning of the interview, her speech is soft and hesitant. Her mood is anxious and sad, and affect is restricted. Thought process is generally coherent. When asked about the memory gaps, she becomes visibly distressed. At one point during the interview, her demeanor shifts abruptly: she straightens up and speaks in a louder, more confident tone, referring to herself in the third person by a different name. After a few minutes, this subsides, and she seems confused and cannot recall parts of what just occurred. No hallucinations or overt delusions are observed, though her sense of identity is markedly fragmented. Insight is limited, as she struggles to understand why these experiences are happening. Judgment is difficult to assess given her fluctuating identity and memory, but she currently accepts the need for treatment.",
+    "complexity": "high"
+  },
+  {
+    "case_id": "SOM-1",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conversion Disorder (Functional Neurological Symptom Disorder)",
+    "narrative": "A 20-year-old female is referred to neurology after experiencing sudden episodes of loss of sensation and paralysis in her legs. The symptoms began abruptly a month ago after she had a heated argument with her parents. During the episodes, which have occurred several times, she is unable to walk or feel touch in her lower extremities, yet extensive medical and neurological evaluations (including MRI and lab tests) have found no organic explanation. The patient appears surprisingly calm about her symptoms, stating, 'It just happens, but I'm not too worried about it.' However, her mother is very distressed by the situation. There is no evidence of substance use or other medical issues.",
+    "MSE": "The patient is a healthy-appearing young woman who uses a wheelchair during the exam, although she is observed moving her legs subtly when distracted. She is cooperative and maintains good eye contact. Speech is normal in rate and tone. Her mood is reported as 'fine,' and affect is notably unconcerned (la belle indifference) given her significant disability. Thought processes are coherent and goal-directed. She does not express any delusional beliefs about her condition; she simply insists she cannot feel or move her legs during episodes. No hallucinations are evident. She is fully oriented with intact cognition. Insight is limited regarding the psychological factors that might be contributing to her symptoms. Judgment in managing her condition is also limited, as she has not followed up consistently with recommended psychotherapy.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "ED-1",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "child",
+    "diagnosis": "Anorexia Nervosa",
+    "narrative": "A 16-year-old female is brought to a nutrition clinic by her parents due to significant weight loss. Over the past 6 months, she has lost about 20 pounds, dropping to a weight that is 85% of what is expected for her height. She follows an extremely restrictive diet, often skipping meals and eating only small portions of vegetables when she does eat. She insists she 'feels fat' despite family and friends telling her she is very thin. Her menstrual periods stopped three months ago. She spends excessive time looking at herself in the mirror and is preoccupied with thoughts about calories and body size. She denies binge eating or purging behaviors. There is no history of a medical condition that would account for the weight loss.",
+    "MSE": "The patient is a thin adolescent female, dressed in baggy clothing. She appears younger than her stated age due to her low weight. She avoids eye contact and sits with a tense, guarded posture. Speech is soft and minimal. Her mood is described as 'fine,' but her affect is blunted and she seems anxious when the conversation centers on food or her weight. Thought processes are logical. Thought content is notable for an intense fear of gaining weight and a distorted perception of her body size (she believes she is overweight despite evident cachexia). She denies any current suicidal ideation or self-harm thoughts. She is alert and oriented. Insight is poor regarding the severity of her malnutrition and health risks. Judgment is impaired as evidenced by her continued restrictive eating despite dangerous weight loss.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "ELIM-1",
+    "category": "Elimination Disorders",
+    "age_group": "child",
+    "diagnosis": "Enuresis",
+    "narrative": "A 7-year-old boy is brought to a pediatrician due to bedwetting. He has been wetting the bed about 4 nights per week for the past 3 months. He had achieved toilet training by age 3 and was mostly dry at night by age 5, but the bedwetting resumed after the family moved to a new home earlier this year. There are no daytime accidents, and no medical issues have been identified on physical exam and urinalysis. The boy says he feels embarrassed and avoids sleepovers. The parents have tried limiting fluids in the evening and waking him at night, with little success.",
+    "MSE": "Mental status exam is conducted in the context of a pediatric visit. The child is appropriately dressed and shows normal behavior for his age in the interview, though he appears a bit anxious when discussing the bedwetting. His speech is fluent and normal for age. Mood is slightly anxious and ashamed, and affect is congruent, as he looks down and fidgets when the topic is broached. Thought process is age-appropriately concrete but logical. There are no signs of hallucinations, delusions, or any other psychiatric symptoms. He is oriented to time, place, and person (oriented to situation as appropriate for a 7-year-old). Insight is limited simply due to developmental stage—he does not understand why he wets the bed. Judgment is also reflective of his age; he relies on his parents for help with the problem.",
+    "complexity": "easy"
+  },
+  {
+    "case_id": "SLP-1",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "Narcolepsy",
+    "narrative": "A 19-year-old male college student is evaluated by a sleep specialist after nearly two years of excessive daytime sleepiness. He reports that no matter how much he sleeps at night, he feels an irresistible need to nap during the day, often dozing off in classes and even in the middle of conversations. He describes occasional episodes where, after laughing hard at a joke, he suddenly felt his muscles go weak and he briefly collapsed (episodes consistent with cataplexy). He also mentions that a few times upon waking, he was unable to move for up to a minute and felt like he was hallucinating a strange figure in his room (sleep paralysis with hypnagogic hallucinations). There is no evidence of drug use, and his routine blood tests are normal.",
+    "MSE": "During the exam, the patient appears his stated age, with a somewhat sleepy demeanor and frequent yawning. He maintains appropriate eye contact and is cooperative. Speech is clear but occasionally trails off as if he's about to doze. His mood is frustrated about his condition, and affect is tired but generally reactive. Thought processes are coherent and goal-directed; thought content is focused on his sleep issues without any delusional or anxious preoccupations. No hallucinations are noted during the interview aside from the described phenomena on awakening. He is fully oriented and his memory and concentration are intact when alert, though he struggles to maintain attention due to sleepiness. Insight is good; he understands that his symptoms likely indicate a sleep disorder. Judgment is intact as he is seeking appropriate medical evaluation.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "SEX-1",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 50-year-old male presents to a sex therapist at the request of his wife. He has experienced difficulty obtaining or maintaining an erection during intercourse for the past 8 months. He reports that while he occasionally has partial erections, they are not firm enough for penetration. This issue has caused him significant distress and he often avoids initiating intimacy due to embarrassment and fear of failure. He denies morning erections. He has a history of mild hypertension and is on a low-dose thiazide diuretic. He drinks one or two beers on weekends and denies other substance use. He reports feeling ashamed and less manly because of this problem.",
+    "MSE": "The patient is a well-groomed middle-aged man who appears stated age. He is cooperative, though he seems somewhat uncomfortable discussing sexual issues and avoids eye contact at times. His speech is normal in rate and tone. Mood is described as embarrassed and 'down,' and affect is constricted, with an anxious undertone when talking about intimacy. Thought process is logical and goal-directed. He denies any thoughts of self-harm or hopelessness; his concerns are focused on sexual performance. There are no hallucinations or delusions. He is cognitively intact and fully oriented. Insight is fair; he recognizes the problem and has sought help, but he has limited knowledge about potential psychological vs. medical factors. Judgment appears sound as he is following through with recommended evaluations and therapy.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "GD-1",
+    "category": "Gender Dysphoria",
+    "age_group": "child",
+    "diagnosis": "Gender Dysphoria",
+    "narrative": "A 16-year-old assigned male at birth presents to a gender identity clinic with his parents. From a young age, the patient has insisted that he is actually a girl. In childhood, he preferred to play with dolls and dress in girls’ clothing. Now, with the onset of puberty, he has become increasingly distressed by the development of male secondary sex characteristics. He reports feeling disgusted by his facial hair and deepening voice, and he often tapes his chest to create the appearance of breasts. He experiences significant anxiety and depression related to the mismatch between his experienced gender (female) and his body. His parents are supportive but concerned about his well-being.",
+    "MSE": "The patient is a 16-year-old youth, dressed in gender-neutral clothing. He appears anxious and somewhat sad during the interview, though he is cooperative. Speech is soft and hesitant at first but becomes more fluent as he becomes comfortable. Mood is 'depressed and anxious,' and affect is congruent, with tearfulness when discussing body changes. Thought processes are coherent and goal-directed. Thought content centers on strong identification as female and significant distress about having a male body. He denies any hallucinations or delusions. He admits to occasional passive wishes to not wake up but denies active suicidal intent or plan. He is fully oriented and cognitively intact. Insight is good regarding his gender identity (he is clear about feeling female), and he is aware that transitioning is a complex process. Judgment appears appropriate; he has sought therapy and medical consultation with family support.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "IMP-1",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "child",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 15-year-old male is brought to a juvenile justice evaluation after multiple encounters with law enforcement. Over the past two years, he has been involved in physical fights at school and was expelled for assaulting a classmate. He has also been caught shoplifting and was recently accused of breaking into a neighbor's garage. His parents report long-standing behavioral issues, including chronic lying and skipping school. They describe him as having little remorse when he hurts others or gets into trouble. There is a history of cruelty to the family pet, and he appears to get a 'thrill' from intimidating younger children. No evidence of an underlying medical condition is present, and substance use has been denied.",
+    "MSE": "The patient is an adolescent male who appears his stated age, dressed in casual clothing. He slouches in his chair with an attitude of indifference. He makes intermittent eye contact, often with a defiant stare. Speech is normal in rate and volume but his tone is curt. When asked about his behavior, his mood is described as 'fine,' and affect is mostly flat, though he smirks when recalling some aggressive acts. Thought process is coherent and concrete. Thought content is notable for a lack of concern for others; he denies feeling guilty about his actions and does not appear to have internalized a sense of wrongdoing. He denies suicidal or homicidal ideation when asked directly, though his history suggests a propensity for violence. He is oriented to person, place, and time. His insight is minimal—he does not acknowledge a problem with his behavior. Judgment is significantly impaired as evidenced by repeated involvement in illegal and aggressive activities.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "SUB-1",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Opioid Use Disorder",
+    "narrative": "A 28-year-old female is seen in an addiction clinic seeking help for opioid use. She reports that two years ago she was prescribed oxycodone after a dental surgery and found that it helped not only her pain but also made her feel relaxed and euphoric. Over time, she began taking more than prescribed and when her prescriptions ran out, she started buying pills illegally. For the past six months, she has been snorting heroin daily because it became cheaper and easier to obtain. She has tried to quit on her own but developed intense withdrawal symptoms (nausea, muscle aches, diarrhea, anxiety) each time, leading her to relapse. She has lost her job due to frequent absences and is estranged from her family because she stole money to buy drugs. She is motivated to quit and seek treatment.",
+    "MSE": "The patient is a thin woman who appears slightly disheveled. She has visible track marks on her forearms. She is cooperative but becomes teary when discussing her addiction. Speech is generally clear, though her voice trembles when she expresses regret. Her mood is 'ashamed and anxious,' and affect is congruent, with evident sadness. Thought processes are goal-directed and coherent. Thought content is focused on her desire to quit opioids and guilt over her past actions; there are no delusions or hallucinations reported. She denies suicidal ideation, stating she wants to live and get better. She is fully oriented, and her cognition appears intact. Insight is good regarding her addiction—she acknowledges the problem and the need for help. Judgment has been impaired in the context of her substance use (e.g., theft and continued use despite consequences), but currently, she demonstrates improving judgment by seeking treatment.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "NC-1",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 72-year-old female is brought to the neurology clinic by her daughter due to progressive memory problems. Over the last 2 years, she has had increasing difficulty remembering recent events and often repeats the same questions. She recently got lost while driving to a familiar grocery store. At home, she sometimes forgets to turn off the stove. Her family notes changes in her personality; she has become more apathetic and occasionally irritable, whereas she was previously very lively. There have been no hallucinations or delusional beliefs. Her medical history is unremarkable aside from well-controlled diabetes. No evidence of stroke is present, and an MRI showed generalized cortical atrophy consistent with age.",
+    "MSE": "The patient is an older woman who appears stated age, with clean casual attire. She is pleasant and cooperative. Speech is normal in rate and tone but she occasionally loses her train of thought. Her mood is generally calm, and affect is appropriate though somewhat shallow. She is able to engage in casual conversation, but when questioned on specifics, she struggles to recall recent events (e.g., what she had for breakfast or recent news). Thought process is generally linear but becomes tangential when she tries to cover memory gaps. No hallucinations or paranoia are observed during the interview. She is oriented to person and place, but only partially to time (she is off by the month and unsure of the exact date). Her short-term memory is significantly impaired (unable to remember three objects after five minutes), whereas long-term memory for childhood events is relatively preserved. Insight is limited; she acknowledges 'some memory trouble' but does not grasp its severity. Judgment in complex tasks (like managing finances or driving) is impaired, as evidenced by her recent difficulties and the need for family oversight.",
+    "complexity": "moderate"
+  },
+  {
+    "case_id": "PD-1",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "Borderline Personality Disorder",
+    "narrative": "A 24-year-old female college student is referred to therapy for long-standing relationship and emotional difficulties. She reports intense, unstable relationships; she often idolizes new friends or romantic partners, then suddenly feels betrayed or abandoned over minor misunderstandings. She describes chronic feelings of emptiness and has a volatile self-image that shifts between feeling okay and hating herself. Her mood fluctuates markedly throughout the day, with episodes of intense irritability, anxiety, or despair that last a few hours. Under stress, particularly after an argument with her boyfriend, she has engaged in impulsive self-harm by cutting her forearm, and has made two past suicide attempts in what she describes as moments of feeling unbearable pain and fear of abandonment. She has no psychotic symptoms outside of transient, stress-related paranoia. She denies current substance abuse.",
+    "MSE": "The patient is a casually dressed young woman who appears her stated age. She is visibly distressed, frequently tearing up during the interview. She makes good eye contact and is cooperative. Speech is fluent and generally normal, though at times she raises her voice emotionally when describing conflicts. Her mood is 'very up and down,' and affect is labile, shifting from tearful to tense anger and back within the session. Thought process is generally coherent but circumstantial when discussing emotional events. Thought content reveals deep fears of abandonment and feelings of emptiness. There are no fixed delusions or hallucinations, though she acknowledges that when extremely stressed she sometimes 'dissociates' or becomes paranoid briefly. She denies current suicidal ideation but admits to frequent urges to self-harm when upset. She is oriented in all spheres and cognitively intact. Insight is limited regarding her relational patterns—she feels others cause the turmoil but acknowledges she has 'overreactions.' Judgment is variable; she can identify negative behaviors in hindsight, yet in the heat of the moment she struggles to control her impulsive actions.",
+    "complexity": "high"
+  },
+  {
+    "case_id": "PAR-1",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Exhibitionistic Disorder",
+    "narrative": "A 30-year-old male is mandated to undergo a psychiatric evaluation after a legal charge for public indecency. Over the past year, he has had recurrent urges to expose his genitals to unsuspecting strangers in public places, which he has acted on several times. He reports feeling a strong surge of sexual excitement during these incidents. He admits to planning these acts, such as choosing locations where he is likely to find an unsuspecting female observer. After each incident, he experiences shame and vows not to do it again, but finds the urges overwhelming. He has no history of psychosis or substance use, and he maintains steady employment, though this behavior has caused significant strain in his personal life and legal consequences.",
+    "MSE": "The patient is a well-groomed man who appears tense and embarrassed. He is cooperative with the evaluation, though he becomes visibly uncomfortable when discussing the details of his charges. His speech is soft and somewhat hesitant when describing sensitive information. His mood is 'ashamed and anxious,' and affect is remorseful, with occasional nervous laughter. Thought processes are goal-directed. Thought content reveals persistent sexual preoccupation with exposing himself, which he recognizes as problematic but struggles to resist. He denies any delusions or hallucinations. No suicidal or homicidal ideation is present. He is oriented and has intact cognition. Insight is partial; he understands that the behavior is wrong and has legal repercussions, but he has difficulty controlling the impulses. Judgment is impaired in that he continues to engage in behavior that has led to legal trouble, despite knowing the potential consequences.",
+    "complexity": "moderate"
+  }
+]
+Note: The cases above represent one disorder from each DSM-5-TR category (from Neurodevelopmental Disorders through Paraphilic Disorders
+psychiatry.org
+psychiatry.org
+). This JSON structure can be expanded with additional cases as needed, and the metadata fields (category, age_group, complexity) can be used by quiz-generation tools for filtering and customization. Each narrative provides enough clinical detail for a reader to deduce the diagnosis, and the MSE provides further clues and realism, mirroring what might be found in an actual psychiatric evaluation.
+
+
+Sources
+You said:
+Extend the data set for varying  symptomology based on prevalence rates. Aim for ~100 cases. Make sure tune project plan is updated to support creating quizzes based on any of categories, age groups,  and specifies. 
