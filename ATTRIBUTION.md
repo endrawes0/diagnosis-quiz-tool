@@ -12,8 +12,8 @@ This project was developed with **significant assistance from multiple AI coding
 
 ### AI Tools Used
 
-#### OpenCode
-- **Primary development assistant** for core implementation
+#### [OpenCode](https://github.com/OpenCodeDev/OpenCode)
+**Primary development assistant** for core implementation
 - Architecture design and implementation
 - Backend API development (Flask)
 - Frontend components (React)
@@ -24,7 +24,10 @@ This project was developed with **significant assistance from multiple AI coding
 - API endpoint implementation
 - Component-level development
 
-#### ChatGPT (OpenAI)
+**Link**: https://github.com/OpenCodeDev/OpenCode
+
+#### [ChatGPT](https://openai.com/chatgpt) (OpenAI)
+Conceptualization and content generation
 - Initial project conceptualization
 - Feature planning and requirements gathering
 - Clinical case content generation
@@ -33,13 +36,18 @@ This project was developed with **significant assistance from multiple AI coding
 - Code generation and problem-solving
 - Content structuring
 
-#### Claude (Anthropic)
+**Link**: https://chat.openai.com
+
+#### [Claude](https://claude.ai) (Anthropic)
+Productionization and deployment support
 - Productionization and deployment preparation
 - Configuration management
 - Authentication implementation
 - Git repository setup
 - Final documentation polish
 - Deployment readiness assessment
+
+**Link**: https://claude.ai
 
 ---
 
@@ -173,9 +181,9 @@ This tool is designed for:
 ## 🏆 Acknowledgments
 
 ### AI Development Partners
-- **OpenCode** - Primary development assistant for core implementation
-- **OpenAI** - For ChatGPT, supporting ideation and content creation
-- **Anthropic** - For Claude, enabling productionization and deployment readiness
+- **[OpenCode](https://github.com/OpenCodeDev/OpenCode)** - Primary development assistant for core implementation
+- **[OpenAI](https://openai.com)** - For ChatGPT, supporting ideation and content creation
+- **[Anthropic](https://www.anthropic.com)** - For Claude, enabling productionization and deployment readiness
 
 ### Inspiration & Educational Framework
 - American Psychiatric Association (DSM-5)
