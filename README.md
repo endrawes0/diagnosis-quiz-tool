@@ -8,11 +8,12 @@ The Diagnosis Quiz Tool is a comprehensive Python application that generates rea
 
 ## 🤖 AI-Assisted Development
 
-This project was developed with **significant assistance from multiple AI coding assistants** (ChatGPT, OpenCode, and Claude), demonstrating modern AI-assisted software development practices. The project architecture, clinical content integration, and educational objectives were designed through iterative human-AI collaboration.
+This project was developed with **significant assistance from multiple AI coding assistants**, with **OpenCode as the primary development assistant**. ChatGPT contributed to conceptualization and content, while Claude handled productionization and deployment. The project demonstrates modern AI-assisted software development practices through iterative human-AI collaboration.
 
 See [ATTRIBUTION.md](ATTRIBUTION.md) for detailed credits and development methodology.
 
 **Human Creator**: Andrew Haddad - Project vision, requirements, validation, and final decisions
+**Primary AI Assistant**: OpenCode - Core architecture, implementation, and development
 **License**: MIT (see [LICENSE](LICENSE))
 
 ### Key Features

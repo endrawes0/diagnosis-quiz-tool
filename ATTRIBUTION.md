@@ -12,15 +12,17 @@ This project was developed with **significant assistance from multiple AI coding
 
 ### AI Tools Used
 
-#### Claude (Anthropic)
-- **Primary development assistant** for productionization phase
+#### OpenCode
+- **Primary development assistant** for core implementation
 - Architecture design and implementation
 - Backend API development (Flask)
 - Frontend components (React)
 - Test suite creation and debugging
 - Documentation writing
 - Code optimization and refactoring
-- Deployment preparation
+- Database/data structure design
+- API endpoint implementation
+- Component-level development
 
 #### ChatGPT (OpenAI)
 - Initial project conceptualization
@@ -29,12 +31,15 @@ This project was developed with **significant assistance from multiple AI coding
 - DSM-5 diagnostic criteria integration
 - Educational framework design
 - Code generation and problem-solving
+- Content structuring
 
-#### OpenCode
-- Code completion and suggestions
-- Rapid prototyping support
-- Syntax optimization
-- Debugging assistance
+#### Claude (Anthropic)
+- Productionization and deployment preparation
+- Configuration management
+- Authentication implementation
+- Git repository setup
+- Final documentation polish
+- Deployment readiness assessment
 
 ---
 
@@ -117,22 +122,25 @@ This tool is designed for:
    - Validated DSM-5 criteria alignment
    - Created realistic patient presentations
 
-3. **Implementation** (Human + ChatGPT + OpenCode + Claude)
+3. **Implementation** (Human + ChatGPT + OpenCode)
    - Backend architecture and API design
    - Frontend interface development
    - Database schema and data structures
    - Gamification system implementation
-
-4. **Testing & Refinement** (Human + Claude)
    - Comprehensive test suite creation
+   - Initial documentation
+
+4. **Testing & Refinement** (Human + OpenCode)
    - Bug identification and fixing
    - Performance optimization
    - Code quality improvements
+   - Feature enhancements
 
 5. **Productionization** (Human + Claude)
-   - Documentation creation
+   - Authentication configuration
    - Deployment preparation
-   - Security hardening
+   - Git repository setup
+   - Final documentation polish
    - Configuration management
 
 6. **Review & Deployment** (Human)
@@ -165,9 +173,9 @@ This tool is designed for:
 ## 🏆 Acknowledgments
 
 ### AI Development Partners
-- **Anthropic** - For Claude, enabling sophisticated code generation and problem-solving
+- **OpenCode** - Primary development assistant for core implementation
 - **OpenAI** - For ChatGPT, supporting ideation and content creation
-- **OpenCode Contributors** - For development tooling support
+- **Anthropic** - For Claude, enabling productionization and deployment readiness
 
 ### Inspiration & Educational Framework
 - American Psychiatric Association (DSM-5)
