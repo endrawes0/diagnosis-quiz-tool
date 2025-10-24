@@ -155,9 +155,9 @@ python -m pytest tests/test_data_loader.py -v
 python -m pytest tests/ -n auto
 ```
 
-### Simple Test Runner (No Dependencies)
+### Simple Smoke Test (No Dependencies)
 ```bash
-python3 simple_test.py
+python3 smoke_test.py
 ```
 
 ## Test Statistics

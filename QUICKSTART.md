@@ -134,10 +134,11 @@ npm install
 
 ## 📚 Next Steps
 
-- Read [README.md](README.md) for detailed documentation
-- See [API_DOCUMENTATION.md](docs/API_DOCUMENTATION.md) for API reference
-- Check [USER_GUIDE.md](docs/USER_GUIDE.md) for usage instructions
+- Read [README.md](README.md) for comprehensive documentation
+- See [ATTRIBUTION.md](ATTRIBUTION.md) for development credits
+- Check [PRODUCTIONIZATION_STATUS.md](PRODUCTIONIZATION_STATUS.md) for technical details
 - Review test results: `pytest tests/ -v`
+- Run smoke test: `python smoke_test.py`
 
 ## 🎓 Academic Use
 
@@ -153,9 +154,10 @@ This tool is designed for:
 ## 🆘 Need Help?
 
 - Check logs in `logs/api.log`
-- Review [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
 - Run smoke test: `python smoke_test.py`
 - Check server status: `curl http://localhost:5000/api/health`
+- Review error messages for specific issues
+- Test API endpoints: `python test_api.py`
 
 ---
 

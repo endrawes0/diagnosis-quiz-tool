@@ -340,8 +340,8 @@ python -m pytest tests/test_data_loader.py -v
 # Run with parallel execution
 python -m pytest tests/ -n auto
 
-# Simple test runner (no dependencies)
-python3 simple_test.py
+# Quick smoke test (no dependencies)
+python3 smoke_test.py
 ```
 
 ### Test Structure
