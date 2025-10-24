@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Autism Spectrum Disorder",
+    "category": "Neurodevelopmental Disorders",
+    "criteria_summary": "Persistent deficits in social communication and interaction across multiple contexts, plus restricted, repetitive patterns of behavior, interests, or activities. Symptoms must be present in early developmental period and cause clinically significant impairment.",
+    "prevalence_rate": 0.01
+  },
+  {
+    "name": "Schizophrenia",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "criteria_summary": "Two or more of the following for at least 1 month: delusions, hallucinations, disorganized speech, grossly disorganized behavior, negative symptoms. Social/occupational dysfunction for at least 6 months with continuous signs of disturbance.",
+    "prevalence_rate": 0.01
+  },
+  {
+    "name": "Bipolar I Disorder",
+    "category": "Bipolar and Related Disorders",
+    "criteria_summary": "At least one manic episode characterized by abnormally elevated, expansive, or irritable mood and increased activity or energy lasting at least 1 week, with marked impairment or requiring hospitalization. May have major depressive episodes but not required.",
+    "prevalence_rate": 0.01
+  },
+  {
+    "name": "Major Depressive Disorder",
+    "category": "Depressive Disorders",
+    "criteria_summary": "Five or more depressive symptoms for at least 2 weeks: depressed mood, anhedonia, weight changes, sleep disturbance, psychomotor changes, fatigue, feelings of worthlessness, concentration difficulties, suicidal thoughts. Causes significant distress or impairment.",
+    "prevalence_rate": 0.1
+  },
+  {
+    "name": "Panic Disorder",
+    "category": "Anxiety Disorders",
+    "criteria_summary": "Recurrent unexpected panic attacks followed by at least 1 month of persistent concern about additional attacks, worry about implications of attacks, or significant maladaptive behavioral changes related to attacks.",
+    "prevalence_rate": 0.02
+  },
+  {
+    "name": "Obsessive-Compulsive Disorder",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "criteria_summary": "Presence of obsessions, compulsions, or both. Obsessions are recurrent intrusive thoughts causing anxiety. Compulsions are repetitive behaviors or mental acts performed to reduce anxiety. Time-consuming (>1 hour daily) or cause clinically significant distress or impairment.",
+    "prevalence_rate": 0.02
+  },
+  {
+    "name": "Posttraumatic Stress Disorder",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "criteria_summary": "Exposure to actual or threatened death, serious injury, or sexual violence. Symptoms from each of four clusters: intrusion, avoidance, negative alterations in cognitions and mood, and alterations in arousal and reactivity. Duration >1 month, causing significant distress or impairment.",
+    "prevalence_rate": 0.06
+  },
+  {
+    "name": "Dissociative Identity Disorder",
+    "category": "Dissociative Disorders",
+    "criteria_summary": "Disruption of identity characterized by two or more distinct personality states, with recurrent gaps in memory recall of everyday events, personal information, or traumatic events. Not attributable to substances or other medical conditions. Causes significant distress or impairment.",
+    "prevalence_rate": 0.001
+  },
+  {
+    "name": "Conversion Disorder (Functional Neurological Symptom Disorder)",
+    "category": "Somatic Symptom and Related Disorders",
+    "criteria_summary": "One or more symptoms of altered voluntary motor or sensory function incompatible with recognized neurological or medical conditions. Clinical findings provide evidence of incompatibility, symptom not better explained by another condition, and causes significant distress or impairment.",
+    "prevalence_rate": 0.005
+  },
+  {
+    "name": "Anorexia Nervosa",
+    "category": "Feeding and Eating Disorders",
+    "criteria_summary": "Restriction of energy intake leading to significantly low body weight, intense fear of gaining weight or becoming fat, persistent behavior interfering with weight gain, or disturbance in self-perceived weight or shape. Subtypes: restricting or binge-eating/purging.",
+    "prevalence_rate": 0.004
+  },
+  {
+    "name": "Enuresis",
+    "category": "Elimination Disorders",
+    "criteria_summary": "Repeated voiding of urine into bed or clothes, whether involuntary or intentional. At least twice per week for at least 3 consecutive months, chronological age at least 5 years (or developmental equivalent), and not attributable to physiological effects of substances or medical condition.",
+    "prevalence_rate": 0.05
+  },
+  {
+    "name": "Narcolepsy",
+    "category": "Sleep-Wake Disorders",
+    "criteria_summary": "Excessive daytime sleepiness occurring daily for at least 3 months, plus one or more: cataplexy, hypocretin deficiency, or REM sleep latency ≤15 minutes with multiple sleep onset REM periods. Not better explained by other conditions.",
+    "prevalence_rate": 0.002
+  },
+  {
+    "name": "Erectile Disorder",
+    "category": "Sexual Dysfunctions",
+    "criteria_summary": "Marked difficulty in obtaining or maintaining an erection during sexual activity, occurring on all or almost all occasions (approximately 75%-100%) for at least 6 months. Symptoms cause clinically significant distress and not better explained by another condition.",
+    "prevalence_rate": 0.1
+  },
+  {
+    "name": "Gender Dysphoria",
+    "category": "Gender Dysphoria",
+    "criteria_summary": "Marked incongruence between experienced gender and assigned gender, lasting at least 6 months. Manifested by strong desire to be treated as other gender, strong conviction of having feelings of other gender, or strong desire for primary/secondary sex characteristics of other gender. Causes significant distress or impairment.",
+    "prevalence_rate": 0.001
+  },
+  {
+    "name": "Conduct Disorder",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "criteria_summary": "Repetitive and persistent pattern of behavior violating rights of others or major age-appropriate norms. Three or more criteria in past 12 months with at least one in past 6 months. Causes significant impairment in social, academic, or occupational functioning.",
+    "prevalence_rate": 0.05
+  },
+  {
+    "name": "Opioid Use Disorder",
+    "category": "Substance-Related and Addictive Disorders",
+    "criteria_summary": "Problematic pattern of opioid use leading to clinically significant impairment or distress. Two or more symptoms within 12-month period: tolerance, withdrawal, larger amounts/longer period, unsuccessful control, time spent, important activities given up, continued use despite problems.",
+    "prevalence_rate": 0.02
+  },
+  {
+    "name": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "category": "Neurocognitive Disorders",
+    "criteria_summary": "Evidence of significant cognitive decline from previous level in one or more cognitive domains: complex attention, executive function, learning and memory, language, perceptual-motor, or social cognition. Interferes with independence in everyday activities. Not occurring exclusively in delirium.",
+    "prevalence_rate": 0.06
+  },
+  {
+    "name": "Borderline Personality Disorder",
+    "category": "Personality Disorders",
+    "criteria_summary": "Pervasive pattern of instability in interpersonal relationships, self-image, and affects, and marked impulsivity beginning by early adulthood. Five or more criteria: frantic avoidance of abandonment, unstable relationships, identity disturbance, impulsivity, recurrent suicidal behavior, affective instability, chronic emptiness, inappropriate anger, transient stress-related paranoia.",
+    "prevalence_rate": 0.02
+  },
+  {
+    "name": "Exhibitionistic Disorder",
+    "category": "Paraphilic Disorders",
+    "criteria_summary": "Over a period of 6 months, recurrent and intense sexual arousal from exposing one's genitals to an unsuspecting person, manifested by fantasies, urges, or behaviors. Acted on with a non-consenting person, or causes clinically significant distress or impairment.",
+    "prevalence_rate": 0.002
+  }
+]

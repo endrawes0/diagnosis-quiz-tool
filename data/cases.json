@@ -1,0 +1,2240 @@
+[
+  {
+    "case_id": "ND-1",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "child",
+    "diagnosis": "Autism Spectrum Disorder",
+    "narrative": "A 8-year-old boy is brought to a pediatric psychologist due to concerns about his social development. His parents report that he has had difficulty making friends and often does not respond when others try to engage him. As a toddler, he had delayed language milestones\u2014he spoke his first words around age 3 and still primarily uses short, simple sentences. In school, he rarely initiates interactions with peers and becomes upset with minor changes in his routine. He exhibits repetitive behaviors, such as hand-flapping when excited and insisting on eating the same foods every day. There is no history of significant medical problems, and his intellectual functioning appears average, although his teacher notes he struggles with figurative language and understanding social cues.",
+    "MSE": "On examination, the child is neatly dressed and groomed, with a blank facial expression and limited eye contact. He does not spontaneously offer information, answering questions with brief responses. Speech is monotonic and concrete. His mood appears neutral, and affect is notably restricted in range. Thought processes are goal-directed but noticeably focused on narrow topics (he repeatedly brings up facts about trains regardless of the question asked). There is no evidence of hallucinations or delusions. Cognitively, he is oriented to person, place, and time. Insight into his social difficulties is limited, and his judgment in age-appropriate social situations appears impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 120,
+    "clinical_specifiers": [
+      "Mild",
+      "Early Onset"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "neurodevelopmental_social_diff",
+        "case_ids": [
+          "ND-1",
+          "ND-2"
+        ],
+        "focus_area": "Social Communication Disorders",
+        "bonus_xp": 30
+      }
+    ]
+  },
+  {
+    "case_id": "PSY-1",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Schizophrenia",
+    "narrative": "A 22-year-old man is evaluated after his college roommates grew concerned about his behavior. Over the past year, he has become increasingly withdrawn and has neglected his hygiene. He often mutters to himself and is heard having angry conversations when he is alone in his room. He believes that the television broadcasts secret messages meant specifically for him, and he has voiced suspicion that his professors are part of a conspiracy to fail him. His academic performance has declined sharply. There is no evidence of substance use, and medical workup is unremarkable.",
+    "MSE": "The patient appears disheveled, with poor grooming and wearing mismatched, dirty clothes. He maintains minimal eye contact and his facial expression is flat. He occasionally pauses and turns his head as if listening to unseen others. Speech is low in volume, with some latency in response. His mood is anxious, and affect is flat with limited reactivity. Thought processes are disorganized, demonstrated by loose associations at times. Thought content is notable for paranoid delusions (believing others are plotting against him). He also endorses auditory hallucinations (voices commenting on his actions). No immediate suicidal or homicidal ideation is present. He is alert and oriented, but demonstrates impaired concentration. Insight is poor as he does not recognize his beliefs as abnormal, and judgment is impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "advanced",
+    "xp_value": 200,
+    "clinical_specifiers": [
+      "Moderate",
+      "Chronic"
+    ],
+    "unlock_requirements": {
+      "min_level": 10,
+      "prerequisite_cases": [
+        "ANX-1",
+        "DEP-1"
+      ]
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "psychotic_mood_diff",
+        "case_ids": [
+          "PSY-1",
+          "BP-1",
+          "DEP-1"
+        ],
+        "focus_area": "Psychotic vs Mood Disorders",
+        "bonus_xp": 50
+      }
+    ]
+  },
+  {
+    "case_id": "BP-1",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Bipolar I Disorder",
+    "narrative": "A 30-year-old female is brought to the emergency department by her family due to a week of unusual behavior. She has been sleeping only 2-3 hours per night yet reports feeling full of energy. Her family describes her mood as 'extremely euphoric and irritable' at times. She has been talking rapidly, jumping from topic to topic, and at one point spent thousands of dollars on luxury items she cannot afford. She also impulsively quit her job to start a nonexistent business. There are brief moments where she becomes suspicious that strangers are spying on her, but these ideas are fleeting. She has no known medical issues, and toxicology screening is negative.",
+    "MSE": "The patient is dressed in flamboyant, brightly colored clothing and wears excessive makeup. She is restless, frequently pacing the room. Speech is pressured, loud, and difficult to interrupt. Her mood is elevated, and she alternates between enthusiastic laughter and irritability when redirected. Affect is expansive and labile. Thought process is markedly tangential and flighty, with rapid shifts in topic. Thought content reveals grandiose ideas\u2014she believes she has a special talent that will make her millions, despite lack of evidence. No sustained hallucinations or fixed delusions are elicited, though she exhibits some paranoid ideation under stress. She is fully oriented, and her attention is intact, but insight is severely limited (she does not acknowledge that her behaviors are problematic). Judgment is impaired, as evidenced by her reckless spending and life decisions.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "DEP-1",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 45-year-old male presents to the clinic with a two-month history of worsening mood. He reports feeling sad nearly every day and has lost interest in his usual hobbies, including playing guitar and going out with friends. His energy is low and he often stays in bed for hours. His appetite has markedly decreased, and he has unintentionally lost 10 pounds in the last month. He struggles to concentrate at work and has been making mistakes. He admits to feelings of worthlessness and guilt, blaming himself for being 'weak.' He denies any history of manic or hypomanic episodes. He has had some fleeting thoughts that life isn't worth living but denies any specific plan or intent to harm himself.",
+    "MSE": "The patient appears slightly unkempt, with a slouched posture and minimal spontaneous movement. He makes limited eye contact. Speech is soft, slow, and lacking in spontaneity. Mood is described as depressed, and affect is constricted, congruent with his mood. Thought processes are organized and goal-directed, with no evidence of hallucinations or delusions. However, content is notable for self-deprecating and hopeless thoughts. He denies current suicidal ideation or intent. He is fully oriented and memory is intact, though concentration is mildly impaired (he has difficulty performing serial sevens). Insight is fair\u2014he recognizes he is depressed\u2014but he feels hopeless about improvement. Judgment is not impaired in the context of the interview, but his pervasive pessimism may affect decision-making.",
+    "complexity": "moderate",
+    "difficulty_tier": "beginner",
+    "xp_value": 75,
+    "clinical_specifiers": [
+      "Moderate",
+      "With Melancholic Features"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "depression_bipolar_diff",
+        "case_ids": [
+          "DEP-1",
+          "BP-1"
+        ],
+        "focus_area": "Unipolar vs Bipolar Depression",
+        "bonus_xp": 35
+      }
+    ]
+  },
+  {
+    "case_id": "ANX-1",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Panic Disorder",
+    "narrative": "A 26-year-old female comes to her primary care physician reporting episodes of sudden, intense fear. She describes experiencing abrupt surges of panic that peak within minutes, during which she feels palpitations, sweating, trembling, and short of breath. She often thinks she is about to die or lose control during these attacks. These episodes have been occurring unpredictably over the past three months. As a result, she has become fearful of having attacks in public places and has started avoiding going to the grocery store and driving on the highway. She reports constant worry about when the next attack will happen. No substance use or medical causes are identified.",
+    "MSE": "The patient appears mildly anxious and fidgets with her hands. She is cooperative and maintains adequate eye contact. Speech is normal in rate and volume, but her voice trembles slightly when discussing her symptoms. Her mood is 'fearful and worried,' and affect is anxious and reactive. Thought process is coherent. Thought content reveals an ongoing fear of dying or 'going crazy' during panic attacks, but she has no delusions or hallucinations. She denies suicidal ideation. She is alert and oriented, with intact memory and concentration. Insight is good, as she recognizes that her fear is excessive, and she is seeking help. Judgment is intact; she has avoided dangerous situations when feeling panicked.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 60,
+    "clinical_specifiers": [
+      "Moderate",
+      "Recurrent"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "anxiety_cardio_diff",
+        "case_ids": [
+          "ANX-1",
+          "ANX-2"
+        ],
+        "focus_area": "Anxiety vs Cardiac Symptoms",
+        "bonus_xp": 25
+      }
+    ]
+  },
+  {
+    "case_id": "OCD-1",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Obsessive-Compulsive Disorder",
+    "narrative": "An 18-year-old male college student is referred for evaluation due to time-consuming rituals. He reports that for the past year he has been haunted by intrusive fears of contamination, specifically worrying that everyday objects are covered in germs that could make him or others sick. To relieve the anxiety, he engages in lengthy handwashing routines\u2014sometimes spending over an hour washing his hands in scalding water. He also cleans his dorm room surfaces repeatedly and refuses to touch door handles without a paper towel. These behaviors have begun to interfere with his class attendance and social life. He recognizes that his fears may be irrational, but he feels unable to control the urges to perform these rituals.",
+    "MSE": "The patient is casually dressed and appears slightly fatigued. There are visible raw, red patches on his hands. He is polite and cooperative during the interview. Speech is articulate and normal in rate. His mood is described as 'anxious,' and his affect is tense but appropriate to the discussion. Thought process is linear and goal-directed. Thought content is remarkable for persistent obsessive fears of contamination and accompanying compulsive behaviors (handwashing and cleaning) that he acknowledges as excessive. He denies any hallucinations or delusional beliefs outside of these contamination fears. No suicidal ideation is present. He is fully oriented, with intact attention and memory. Insight is partial\u2014he knows his fears are irrational, yet feels compelled to act on them. Judgment is fair; aside from his compulsive behaviors, he has made appropriate decisions such as seeking help.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "TS-1",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 34-year-old male Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. He served as a combat soldier and was involved in several firefights, during which he witnessed the deaths of fellow soldiers. Since returning home two years ago, he has had frequent nightmares of combat scenes and wakes up in a sweat. He experiences flashbacks triggered by loud noises that remind him of gunfire, during which he feels as if he is back in that situation. He avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. He drinks alcohol nightly to 'calm his nerves,' though denies using other substances.",
+    "MSE": "The patient is alert and fully oriented, appearing tense with a guarded demeanor. He sits with his back to the wall and scans the environment frequently. Speech is generally normal but he becomes terse and agitated when discussing his combat experiences. Mood is described as 'on edge,' and affect is anxious, constricted, with moments of intense distress when recounting trauma. Thought process is goal-directed. Thought content reveals persistent intrusive memories of traumatic events and hypervigilant beliefs (for example, he insists on checking all doors and windows at home repeatedly). He denies current hallucinations or delusions, though during flashbacks he temporarily loses touch with the present moment. No suicidal or homicidal ideation is reported. Cognitive examination is grossly intact. Insight is partial\u2014he recognizes his reactions are related to trauma but feels helpless to control them. Judgment is acceptable in most areas, though his heavy alcohol use indicates some poorly adaptive coping.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "DISS-1",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "Dissociative Identity Disorder",
+    "narrative": "A 28-year-old female is admitted to a psychiatric unit after episodes of memory loss and unusual behavior reported by her friends. She has a history of severe childhood physical and emotional abuse. Over the past year, she has experienced gaps in recall of everyday events and important personal information. Friends say that at times she will speak in a childlike voice and seem to have a different name, and other times she becomes aggressive and uses profane language that is very uncharacteristic of her usual demeanor. She often does not remember these behaviors afterward. She has found personal items in her apartment that she does not recall buying. There is no evidence of substance use, and neurological evaluation found no medical cause for her symptoms.",
+    "MSE": "The patient is a young adult female who appears her stated age, with a tense posture and wary expression. She is oriented to the hospital setting and date. At the beginning of the interview, her speech is soft and hesitant. Her mood is anxious and sad, and affect is restricted. Thought process is generally coherent. When asked about the memory gaps, she becomes visibly distressed. At one point during the interview, her demeanor shifts abruptly: she straightens up and speaks in a louder, more confident tone, referring to herself in the third person by a different name. After a few minutes, this subsides, and she seems confused and cannot recall parts of what just occurred. No hallucinations or overt delusions are observed, though her sense of identity is markedly fragmented. Insight is limited, as she struggles to understand why these experiences are happening. Judgment is difficult to assess given her fluctuating identity and memory, but she currently accepts the need for treatment.",
+    "complexity": "high",
+    "difficulty_tier": "expert",
+    "xp_value": 400,
+    "clinical_specifiers": [
+      "Severe",
+      "Chronic"
+    ],
+    "unlock_requirements": {
+      "min_level": 25,
+      "prerequisite_cases": [
+        "TS-1",
+        "DEP-1"
+      ],
+      "required_achievements": [
+        "trauma_specialist"
+      ]
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "dissociative_psychotic_diff",
+        "case_ids": [
+          "DISS-1",
+          "PSY-1"
+        ],
+        "focus_area": "Dissociative vs Psychotic Disorders",
+        "bonus_xp": 75
+      }
+    ]
+  },
+  {
+    "case_id": "SOM-1",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conversion Disorder (Functional Neurological Symptom Disorder)",
+    "narrative": "A 20-year-old female is referred to neurology after experiencing sudden episodes of loss of sensation and paralysis in her legs. The symptoms began abruptly a month ago after she had a heated argument with her parents. During the episodes, which have occurred several times, she is unable to walk or feel touch in her lower extremities, yet extensive medical and neurological evaluations (including MRI and lab tests) have found no organic explanation. The patient appears surprisingly calm about her symptoms, stating, 'It just happens, but I'm not too worried about it.' However, her mother is very distressed by the situation. There is no evidence of substance use or other medical issues.",
+    "MSE": "The patient is a healthy-appearing young woman who uses a wheelchair during the exam, although she is observed moving her legs subtly when distracted. She is cooperative and maintains good eye contact. Speech is normal in rate and tone. Her mood is reported as 'fine,' and affect is notably unconcerned (la belle indifference) given her significant disability. Thought processes are coherent and goal-directed. She does not express any delusional beliefs about her condition; she simply insists she cannot feel or move her legs during episodes. No hallucinations are evident. She is fully oriented with intact cognition. Insight is limited regarding the psychological factors that might be contributing to her symptoms. Judgment in managing her condition is also limited, as she has not followed up consistently with recommended psychotherapy.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "ED-1",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "child",
+    "diagnosis": "Anorexia Nervosa",
+    "narrative": "A 16-year-old female is brought to a nutrition clinic by her parents due to significant weight loss. Over the past 6 months, she has lost about 20 pounds, dropping to a weight that is 85% of what is expected for her height. She follows an extremely restrictive diet, often skipping meals and eating only small portions of vegetables when she does eat. She insists she 'feels fat' despite family and friends telling her she is very thin. Her menstrual periods stopped three months ago. She spends excessive time looking at herself in the mirror and is preoccupied with thoughts about calories and body size. She denies binge eating or purging behaviors. There is no history of a medical condition that would account for the weight loss.",
+    "MSE": "The patient is a thin adolescent female, dressed in baggy clothing. She appears younger than her stated age due to her low weight. She avoids eye contact and sits with a tense, guarded posture. Speech is soft and minimal. Her mood is described as 'fine,' but her affect is blunted and she seems anxious when the conversation centers on food or her weight. Thought processes are logical. Thought content is notable for an intense fear of gaining weight and a distorted perception of her body size (she believes she is overweight despite evident cachexia). She denies any current suicidal ideation or self-harm thoughts. She is alert and oriented. Insight is poor regarding the severity of her malnutrition and health risks. Judgment is impaired as evidenced by her continued restrictive eating despite dangerous weight loss.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "ELIM-1",
+    "category": "Elimination Disorders",
+    "age_group": "child",
+    "diagnosis": "Enuresis",
+    "narrative": "A 7-year-old boy is brought to a pediatrician due to bedwetting. He has been wetting the bed about 4 nights per week for the past 3 months. He had achieved toilet training by age 3 and was mostly dry at night by age 5, but the bedwetting resumed after the family moved to a new home earlier this year. There are no daytime accidents, and no medical issues have been identified on physical exam and urinalysis. The boy says he feels embarrassed and avoids sleepovers. The parents have tried limiting fluids in the evening and waking him at night, with little success.",
+    "MSE": "Mental status exam is conducted in the context of a pediatric visit. The child is appropriately dressed and shows normal behavior for his age in the interview, though he appears a bit anxious when discussing the bedwetting. His speech is fluent and normal for age. Mood is slightly anxious and ashamed, and affect is congruent, as he looks down and fidgets when the topic is broached. Thought process is age-appropriately concrete but logical. There are no signs of hallucinations, delusions, or any other psychiatric symptoms. He is oriented to time, place, and person (oriented to situation as appropriate for a 7-year-old). Insight is limited simply due to developmental stage\u2014he does not understand why he wets the bed. Judgment is also reflective of his age; he relies on his parents for help with the problem.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 40,
+    "clinical_specifiers": [
+      "Mild",
+      "Acute"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "pediatric_developmental_diff",
+        "case_ids": [
+          "ELIM-1",
+          "ND-1"
+        ],
+        "focus_area": "Developmental vs Behavioral Issues",
+        "bonus_xp": 20
+      }
+    ]
+  },
+  {
+    "case_id": "SLP-1",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "Narcolepsy",
+    "narrative": "A 19-year-old male college student is evaluated by a sleep specialist after nearly two years of excessive daytime sleepiness. He reports that no matter how much he sleeps at night, he feels an irresistible need to nap during the day, often dozing off in classes and even in the middle of conversations. He describes occasional episodes where, after laughing hard at a joke, he suddenly felt his muscles go weak and he briefly collapsed (episodes consistent with cataplexy). He also mentions that a few times upon waking, he was unable to move for up to a minute and felt like he was hallucinating a strange figure in his room (sleep paralysis with hypnagogic hallucinations). There is no evidence of drug use, and his routine blood tests are normal.",
+    "MSE": "During the exam, the patient appears his stated age, with a somewhat sleepy demeanor and frequent yawning. He maintains appropriate eye contact and is cooperative. Speech is clear but occasionally trails off as if he's about to doze. His mood is frustrated about his condition, and affect is tired but generally reactive. Thought processes are coherent and goal-directed; thought content is focused on his sleep issues without any delusional or anxious preoccupations. No hallucinations are noted during the interview aside from the described phenomena on awakening. He is fully oriented and his memory and concentration are intact when alert, though he struggles to maintain attention due to sleepiness. Insight is good; he understands that his symptoms likely indicate a sleep disorder. Judgment is intact as he is seeking appropriate medical evaluation.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "SEX-1",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 50-year-old male presents to a sex therapist at the request of his wife. He has experienced difficulty obtaining or maintaining an erection during intercourse for the past 8 months. He reports that while he occasionally has partial erections, they are not firm enough for penetration. This issue has caused him significant distress and he often avoids initiating intimacy due to embarrassment and fear of failure. He denies morning erections. He has a history of mild hypertension and is on a low-dose thiazide diuretic. He drinks one or two beers on weekends and denies other substance use. He reports feeling ashamed and less manly because of this problem.",
+    "MSE": "The patient is a well-groomed middle-aged man who appears stated age. He is cooperative, though he seems somewhat uncomfortable discussing sexual issues and avoids eye contact at times. His speech is normal in rate and tone. Mood is described as embarrassed and 'down,' and affect is constricted, with an anxious undertone when talking about intimacy. Thought process is logical and goal-directed. He denies any thoughts of self-harm or hopelessness; his concerns are focused on sexual performance. There are no hallucinations or delusions. He is cognitively intact and fully oriented. Insight is fair; he recognizes the problem and has sought help, but he has limited knowledge about potential psychological vs. medical factors. Judgment appears sound as he is following through with recommended evaluations and therapy.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "GD-1",
+    "category": "Gender Dysphoria",
+    "age_group": "child",
+    "diagnosis": "Gender Dysphoria",
+    "narrative": "A 16-year-old assigned male at birth presents to a gender identity clinic with his parents. From a young age, the patient has insisted that he is actually a girl. In childhood, he preferred to play with dolls and dress in girls' clothing. Now, with the onset of puberty, he has become increasingly distressed by the development of male secondary sex characteristics. He reports feeling disgusted by his facial hair and deepening voice, and he often tapes his chest to create the appearance of breasts. He experiences significant anxiety and depression related to the mismatch between his experienced gender (female) and his body. His parents are supportive but concerned about his well-being.",
+    "MSE": "The patient is a 16-year-old youth, dressed in gender-neutral clothing. He appears anxious and somewhat sad during the interview, though he is cooperative. Speech is soft and hesitant at first but becomes more fluent as he becomes comfortable. Mood is 'depressed and anxious,' and affect is congruent, with tearfulness when discussing body changes. Thought processes are coherent and goal-directed. Thought content centers on strong identification as female and significant distress about having a male body. He denies any hallucinations or delusions. He admits to occasional passive wishes to not wake up but denies active suicidal intent or plan. He is fully oriented and cognitively intact. Insight is good regarding his gender identity (he is clear about feeling female), and he is aware that transitioning is a complex process. Judgment appears appropriate; he has sought therapy and medical consultation with family support.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "IMP-1",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "child",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 15-year-old male is brought to a juvenile justice evaluation after multiple encounters with law enforcement. Over the past two years, he has been involved in physical fights at school and was expelled for assaulting a classmate. He has also been caught shoplifting and was recently accused of breaking into a neighbor's garage. His parents report long-standing behavioral issues, including chronic lying and skipping school. They describe him as having little remorse when he hurts others or gets into trouble. There is a history of cruelty to the family pet, and he appears to get a 'thrill' from intimidating younger children. No evidence of an underlying medical condition is present, and substance use has been denied.",
+    "MSE": "The patient is an adolescent male who appears his stated age, dressed in casual clothing. He slouches in his chair with an attitude of indifference. He makes intermittent eye contact, often with a defiant stare. Speech is normal in rate and volume but his tone is curt. When asked about his behavior, his mood is described as 'fine,' and affect is mostly flat, though he smirks when recalling some aggressive acts. Thought process is coherent and concrete. Thought content is notable for a lack of concern for others; he denies feeling guilty about his actions and does not appear to have internalized a sense of wrongdoing. He denies suicidal or homicidal ideation when asked directly, though his history suggests a propensity for violence. He is oriented to person, place, and time. His insight is minimal\u2014he does not acknowledge a problem with his behavior. Judgment is significantly impaired as evidenced by repeated involvement in illegal and aggressive activities.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "SUB-1",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Opioid Use Disorder",
+    "narrative": "A 28-year-old female is seen in an addiction clinic seeking help for opioid use. She reports that two years ago she was prescribed oxycodone after a dental surgery and found that it helped not only her pain but also made her feel relaxed and euphoric. Over time, she began taking more than prescribed and when her prescriptions ran out, she started buying pills illegally. For the past six months, she has been snorting heroin daily because it became cheaper and easier to obtain. She has tried to quit on her own but developed intense withdrawal symptoms (nausea, muscle aches, diarrhea, anxiety) each time, leading her to relapse. She has lost her job due to frequent absences and is estranged from her family because she stole money to buy drugs. She is motivated to quit and seek treatment.",
+    "MSE": "The patient is a thin woman who appears slightly disheveled. She has visible track marks on her forearms. She is cooperative but becomes teary when discussing her addiction. Speech is generally clear, though her voice trembles when she expresses regret. Her mood is 'ashamed and anxious,' and affect is congruent, with evident sadness. Thought processes are goal-directed and coherent. Thought content is focused on her desire to quit opioids and guilt over her past actions; there are no delusions or hallucinations reported. She denies suicidal ideation, stating she wants to live and get better. She is fully oriented, and her cognition appears intact. Insight is good regarding her addiction\u2014she acknowledges the problem and the need for help. Judgment has been impaired in the context of her substance use (e.g., theft and continued use despite consequences), but currently, she demonstrates improving judgment by seeking treatment.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "NC-1",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 72-year-old female is brought to the neurology clinic by her daughter due to progressive memory problems. Over the last 2 years, she has had increasing difficulty remembering recent events and often repeats the same questions. She recently got lost while driving to a familiar grocery store. At home, she sometimes forgets to turn off the stove. Her family notes changes in her personality; she has become more apathetic and occasionally irritable, whereas she was previously very lively. There have been no hallucinations or delusional beliefs. Her medical history is unremarkable aside from well-controlled diabetes. No evidence of stroke is present, and an MRI showed generalized cortical atrophy consistent with age.",
+    "MSE": "The patient is an older woman who appears stated age, with clean casual attire. She is pleasant and cooperative. Speech is normal in rate and tone but she occasionally loses her train of thought. Her mood is generally calm, and affect is appropriate though somewhat shallow. She is able to engage in casual conversation, but when questioned on specifics, she struggles to recall recent events (e.g., what she had for breakfast or recent news). Thought process is generally linear but becomes tangential when she tries to cover memory gaps. No hallucinations or paranoia are observed during the interview. She is oriented to person and place, but only partially to time (she is off by the month and unsure of the exact date). Her short-term memory is significantly impaired (unable to remember three objects after five minutes), whereas long-term memory for childhood events is relatively preserved. Insight is limited; she acknowledges 'some memory trouble' but does not grasp its severity. Judgment in complex tasks (like managing finances or driving) is impaired, as evidenced by her recent difficulties and the need for family oversight.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 130,
+    "clinical_specifiers": [
+      "Moderate",
+      "Late Onset",
+      "Chronic"
+    ],
+    "unlock_requirements": {
+      "min_level": 5,
+      "prerequisite_cases": [
+        "DEP-1"
+      ]
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "neurocognitive_depression_diff",
+        "case_ids": [
+          "NC-1",
+          "DEP-1"
+        ],
+        "focus_area": "Neurocognitive vs Mood Disorders in Elderly",
+        "bonus_xp": 40
+      }
+    ]
+  },
+  {
+    "case_id": "PD-1",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "Borderline Personality Disorder",
+    "narrative": "A 24-year-old female college student is referred to therapy for long-standing relationship and emotional difficulties. She reports intense, unstable relationships; she often idolizes new friends or romantic partners, then suddenly feels betrayed or abandoned over minor misunderstandings. She describes chronic feelings of emptiness and has a volatile self-image that shifts between feeling okay and hating herself. Her mood fluctuates markedly throughout the day, with episodes of intense irritability, anxiety, or despair that last a few hours. Under stress, particularly after an argument with her boyfriend, she has engaged in impulsive self-harm by cutting her forearm, and has made two past suicide attempts in what she describes as moments of feeling unbearable pain and fear of abandonment. She has no psychotic symptoms outside of transient, stress-related paranoia. She denies current substance abuse.",
+    "MSE": "The patient is a casually dressed young woman who appears her stated age. She is visibly distressed, frequently tearing up during the interview. She makes good eye contact and is cooperative. Speech is fluent and generally normal, though at times she raises her voice emotionally when describing conflicts. Her mood is 'very up and down,' and affect is labile, shifting from tearful to tense anger and back within the session. Thought process is generally coherent but circumstantial when discussing emotional events. Thought content reveals deep fears of abandonment and feelings of emptiness. There are no fixed delusions or hallucinations, though she acknowledges that when extremely stressed she sometimes 'dissociates' or becomes paranoid briefly. She denies current suicidal ideation but admits to frequent urges to self-harm when upset. She is oriented in all spheres and cognitively intact. Insight is limited regarding her relational patterns\u2014she feels others cause the turmoil but acknowledges she has 'overreactions.' Judgment is variable; she can identify negative behaviors in hindsight, yet in the heat of the moment she struggles to control her impulsive actions.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 250,
+    "clinical_specifiers": [
+      "Severe",
+      "Recurrent"
+    ],
+    "unlock_requirements": {
+      "min_level": 15,
+      "prerequisite_cases": [
+        "DEP-1",
+        "ANX-1"
+      ],
+      "required_achievements": [
+        "mood_disorders_master"
+      ]
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": [
+      {
+        "combination_id": "personality_mood_diff",
+        "case_ids": [
+          "PD-1",
+          "DEP-1",
+          "BP-1"
+        ],
+        "focus_area": "Personality vs Mood Disorders",
+        "bonus_xp": 60
+      }
+    ]
+  },
+  {
+    "case_id": "PAR-1",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Exhibitionistic Disorder",
+    "narrative": "A 30-year-old male is mandated to undergo a psychiatric evaluation after a legal charge for public indecency. Over the past year, he has had recurrent urges to expose his genitals to unsuspecting strangers in public places, which he has acted on several times. He reports feeling a strong surge of sexual excitement during these incidents. He admits to planning these acts, such as choosing locations where he is likely to find an unsuspecting female observer. After each incident, he experiences shame and vows not to do it again, but finds the urges overwhelming. He has no history of psychosis or substance use, and he maintains steady employment, though this behavior has caused significant strain in his personal life and legal consequences.",
+    "MSE": "The patient is a well-groomed man who appears tense and embarrassed. He is cooperative with the evaluation, though he becomes visibly uncomfortable when discussing the details of his charges. His speech is soft and somewhat hesitant when describing sensitive information. His mood is 'ashamed and anxious,' and affect is remorseful, with occasional nervous laughter. Thought processes are goal-directed. Thought content reveals persistent sexual preoccupation with exposing himself, which he recognizes as problematic but struggles to resist. He denies any delusions or hallucinations. No suicidal or homicidal ideation is present. He is oriented and has intact cognition. Insight is partial; he understands that the behavior is wrong and has legal repercussions, but he has difficulty controlling the impulses. Judgment is impaired in that he continues to engage in behavior that has led to legal trouble, despite knowing the potential consequences.",
+    "complexity": "moderate",
+    "prevalence_weight": 1.0,
+    "symptom_variants": []
+  },
+  {
+    "case_id": "ELI-049",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 30-year-old female is evaluated for persistent bedwetting. Despite being toilet trained since age 2, she has been wetting the bed 2-3 times per week for the past 6 months. The problem started after her grandmother died and she began having nightmares. She has normal daytime bladder control and no urinary symptoms. Physical exam and urine studies are unremarkable. She reports feeling embarrassed and has stopped inviting friends for playdates. Her parents note that she seems more clingy and has trouble separating at bedtime. There is no history of abuse or significant stressors beyond the recent loss.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-047",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 60-year-old female is evaluated for persistent bedwetting. Despite being toilet trained since age 2, she has been wetting the bed 2-3 times per week for the past 6 months. The problem started after her grandmother died and she began having nightmares. She has normal daytime bladder control and no urinary symptoms. Physical exam and urine studies are unremarkable. She reports feeling embarrassed and has stopped inviting friends for playdates. Her parents note that she seems more clingy and has trouble separating at bedtime. There is no history of abuse or significant stressors beyond the recent loss.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-030",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 14-year-old male Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. He served as a combat soldier and was involved in several firefights where he witnessed the deaths of fellow soldiers. Since returning home 6 months ago, he has had frequent nightmares of combat scenes and wakes up in a sweat. He experiences flashbacks triggered by loud noises that remind him of gunfire, during which he feels as if he is back in that situation. He avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. He drinks alcohol nightly to 'calm his nerves.'",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-072",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 41-year-old female comes to the clinic concerned about her sexual performance. she reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. she describes partial erections that don't last long enough. This has caused him significant anxiety and she has started avoiding intimate situations. she has a history of coronary artery disease and takes multiple cardiac medications. she reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-032",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 13-year-old male presents to the mental health clinic reporting intrusive memories and nightmares since a serious car accident 6 months ago. he was the driver in a collision that killed his passenger and left his with multiple injuries. Since then, he has recurrent flashbacks of the accident, especially when driving or hearing sirens. he avoids highways and gets extremely anxious when other cars approach too closely. he has trouble sleeping due to nightmares and feels constantly on guard. his concentration at work has suffered and he has become socially withdrawn. he reports feeling emotionally numb and has lost interest in previously enjoyed activities.",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-064",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adolescent",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 13-year-old male presents to a urology clinic with a 6-month history of difficulty achieving and maintaining erections sufficient for satisfactory sexual intercourse. He reports that erections occur occasionally but are not firm enough for penetration. The problem has caused significant distress and he now avoids initiating intimacy due to fear of failure. He denies morning erections and has noticed decreased libido. He has hypertension treated with a thiazide diuretic and drinks alcohol socially. He feels embarrassed and questions his masculinity.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-017",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 50-year-old male comes to clinic reporting 10 weeks of feeling 'down' and irritable. Has lost interest in work and social activities, with difficulty concentrating and making decisions. Sleep is disrupted with early morning awakening, and appetite has decreased leading to 5-10 pound weight loss. Family history significant for similar episodes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-029",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 39-year-old female Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. she served as a combat soldier and was involved in several firefights where she witnessed the deaths of fellow soldiers. Since returning home 6 months ago, she has had frequent nightmares of combat scenes and wakes up in a sweat. she experiences flashbacks triggered by loud noises that remind him of gunfire, during which she feels as if she is back in that situation. she avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. she drinks alcohol nightly to 'calm her nerves.'",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-035",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 17-year-old female presents to the mental health clinic reporting intrusive memories and nightmares since a serious car accident 6 months ago. She was the driver in a collision that killed her passenger and left her with multiple injuries. Since then, she has recurrent flashbacks of the accident, especially when driving or hearing sirens. She avoids highways and gets extremely anxious when other cars approach too closely. She has trouble sleeping due to nightmares and feels constantly on guard. Her concentration at work has suffered and she has become socially withdrawn. She reports feeling emotionally numb and has lost interest in previously enjoyed activities.",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-081",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 46-year-old female presents to the child psychiatry clinic after being suspended from school for aggressive behavior. For the past 6 months, she has been involved in multiple physical altercations with peers and has destroyed school property on several occasions. She has been caught stealing money from classmates and lying about it when confronted. Her teachers report that she shows no remorse and often blames others for her actions. At home, she has been defiant toward her parents, staying out past curfew and ignoring household rules. She has a history of setting fires and being cruel to pets. There are no signs of intellectual disability or other neurodevelopmental disorders.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-001",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "adult",
+    "diagnosis": "autism spectrum disorder",
+    "narrative": "A 41-year-old female is evaluated after her school reported concerns about her social communication and restricted interests. She has few friends and prefers solitary play, often lining up toys or organizing objects rather than imaginative play. She has intense interests in particular topics like animals or numbers, collecting extensive information about them. She has trouble with reciprocal conversation, often monologuing about her interests without noticing if others are disinterested. She takes language literally and misses implied meanings. She has sensory sensitivities, becoming overwhelmed in noisy environments and seeking out specific textures. Her parents note that she had early developmental concerns and received speech therapy. She has some restricted food preferences and insists on wearing the same clothes.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "GEN-073",
+    "category": "Gender Dysphoria",
+    "age_group": "adult",
+    "diagnosis": "gender dysphoria",
+    "narrative": "A 43-year-old male is referred by his therapist for evaluation of gender dysphoria. He reports feeling male since age 4, preferring masculine play and rejecting feminine clothing. He has been living as male socially for the past year, using a chosen name and pronouns. He experiences distress when referred to as female and has been bullied at school. He has symptoms of anxiety and depression, with poor concentration and social withdrawal. He has researched puberty blockers and hopes to start them soon. His parents are divided in their support, with his mother accepting but his father rejecting his identity. He has no history of gender exploration or other identity issues.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-013",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 29-year-old male presents with a 7-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences difficulty concentrating and making decisions, and has noticed fatigue and psychomotor retardation. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-087",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 28-year-old male is brought to the neurology clinic by her daughter due to progressive memory problems. Over the last 6 months, he has had increasing difficulty remembering recent events and often repeats the same questions. he recently got lost while driving to a familiar grocery store. At home, he sometimes forgets to turn off the stove or leave the water running. Her family notes changes in her personality; she has become more apathetic and occasionally irritable, whereas he was previously very lively and engaged. There have been no hallucinations or delusional beliefs. his medical history is unremarkable aside from well-controlled hypertension. An MRI showed generalized cortical atrophy consistent with Alzheimer's disease.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-031",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 24-year-old female comes to the clinic after experiencing a home invasion 6 months ago. Since the incident, she has been unable to sleep in her bedroom and has installed multiple locks and security cameras throughout her home. She has recurrent nightmares about the intruder and experiences panic attacks when she hears unfamiliar noises at night. She avoids going out alone after dark and has quit her job because the commute made her too anxious. Her family reports that she startles easily and has become irritable and emotionally distant. She reports feeling guilty for surviving when others in similar situations have not.",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-015",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 16-year-old female presents with symptoms consistent with Major Depressive Disorder. Duration of 4 months with feelings of worthlessness and excessive guilt.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-067",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 37-year-old male is referred by his primary care physician for evaluation of erectile dysfunction. For the past 6 months, he has been unable to achieve erections despite sexual stimulation. He describes erections that start but then fade quickly. This has led to avoidance of sexual activity and strain on his relationship. He reports feeling anxious and depressed about the situation. He has diabetes mellitus and takes metformin. He denies tobacco use but admits to occasional recreational drug use.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-066",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 38-year-old male comes to the clinic concerned about his sexual performance. He reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. He describes partial erections that don't last long enough. This has caused him significant anxiety and he has started avoiding intimate situations. He has a history of coronary artery disease and takes multiple cardiac medications. He reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-063",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 50-year-old female presents to a urology clinic with a 6-month history of difficulty achieving and maintaining erections sufficient for satisfactory sexual intercourse. she reports that erections occur occasionally but are not firm enough for penetration. The problem has caused significant distress and she now avoids initiating intimacy due to fear of failure. she denies morning erections and has noticed decreased libido. she has hypertension treated with a thiazide diuretic and drinks alcohol socially. she feels embarrassed and questions her masculinity.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "FEE-043",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "adult",
+    "diagnosis": "anorexia nervosa",
+    "narrative": "A 41-year-old male is admitted to the inpatient eating disorders unit after his weight dropped dangerously low. he has been restricting his intake for 6 months, eating only 300-500 calories daily. he has lost 40 pounds and his BMI is 13.5. he has intense fear of gaining weight and views his thinness as an achievement. he has rituals around food preparation and avoids eating with others. he has stopped menstruating and has low heart rate and blood pressure. he reports feeling 'fat' and worthless when she eats. Her family reports that she has become irritable and withdrawn. he has been hospitalized before for similar issues but relapsed after discharge. he expresses desire to recover but feels terrified of weight gain.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-039",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 50-year-old female comes to the clinic after experiencing a home invasion 6 months ago. Since the incident, she has been unable to sleep in her bedroom and has installed multiple locks and security cameras throughout her home. She has recurrent nightmares about the intruder and experiences panic attacks when she hears unfamiliar noises at night. She avoids going out alone after dark and has quit her job because the commute made her too anxious. Her family reports that she startles easily and has become irritable and emotionally distant. She reports feeling guilty for surviving when others in similar situations have not.",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-018",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 17-year-old male presents with symptoms consistent with Major Depressive Disorder. Duration of 12 months with feelings of worthlessness and excessive guilt.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SLE-053",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "narcolepsy",
+    "narrative": "A 43-year-old male presents to the sleep clinic complaining of excessive daytime sleepiness and sudden sleep attacks. For the past 6 months, he has been falling asleep unexpectedly during meetings, while driving, and even during conversations. He describes cataplexy episodes where his knees buckle suddenly when he laughs or gets excited, though he doesn't lose consciousness. He has vivid hallucinations when falling asleep and upon awakening. His sleep at night is fragmented with frequent awakenings. He feels refreshed after naps but the sleepiness returns quickly. He has gained weight despite eating normally. He reports feeling embarrassed about falling asleep at work and has been reprimanded for poor performance. He denies using recreational drugs or alcohol. His symptoms started gradually and have worsened over time.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-088",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 18-year-old female presents with his wife who reports that she has become increasingly forgetful over the past 6 months. she forgets appointments, misplaces objects, and has trouble following conversations. she has gotten lost while walking in their neighborhood on several occasions. she becomes frustrated and angry when she can't remember things, and has withdrawn from social activities. she has trouble with basic calculations and has stopped managing their finances. There is no history of stroke or head trauma. His wife notes that he sometimes accuses her of hiding her belongings when she can't find them. Neuropsychological testing shows deficits in memory and executive functioning.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-062",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 18-year-old female is referred by her primary care physician for evaluation of erectile dysfunction. For the past 6 months, she has been unable to achieve erections despite sexual stimulation. she describes erections that start but then fade quickly. This has led to avoidance of sexual activity and strain on her relationship. she reports feeling anxious and depressed about the situation. she has diabetes mellitus and takes metformin. she denies tobacco use but admits to occasional recreational drug use.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-056",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 53-year-old female presents to a urology clinic with a 6-month history of difficulty achieving and maintaining erections sufficient for satisfactory sexual intercourse. she reports that erections occur occasionally but are not firm enough for penetration. The problem has caused significant distress and she now avoids initiating intimacy due to fear of failure. she denies morning erections and has noticed decreased libido. she has hypertension treated with a thiazide diuretic and drinks alcohol socially. she feels embarrassed and questions her masculinity.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-012",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 13-year-old male presents with symptoms consistent with Major Depressive Disorder. Duration of 5 months with difficulty concentrating and making decisions.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-008",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 61-year-old male comes to clinic reporting 6 weeks of feeling 'down' and irritable. Has lost interest in work and social activities, with difficulty concentrating and making decisions. Sleep is disrupted with early morning awakening, and appetite has decreased leading to 5-10 pound weight loss. Family history significant for similar episodes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [
+      "Severe",
+      "With Anxious Features"
+    ],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-037",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 27-year-old male presents to the mental health clinic reporting intrusive memories and nightmares since a serious car accident 6 months ago. he was the driver in a collision that killed his passenger and left his with multiple injuries. Since then, he has recurrent flashbacks of the accident, especially when driving or hearing sirens. he avoids highways and gets extremely anxious when other cars approach too closely. he has trouble sleeping due to nightmares and feels constantly on guard. his concentration at work has suffered and he has become socially withdrawn. he reports feeling emotionally numb and has lost interest in previously enjoyed activities.",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-048",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 55-year-old male presents with his mother who reports that he continues to wet the bed despite being 55 years old. The bedwetting has been occurring 3-5 times per week for the past 6 months. He was dry at night for about 2 years but the problem returned after his parents' divorce. He denies daytime wetting and has normal urinary function during the day. Physical examination and urinalysis are normal. He reports feeling ashamed and has become reluctant to have friends sleep over. His mother notes that he seems more anxious and has trouble concentrating at school. There is no family history of bedwetting.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-055",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adolescent",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 17-year-old female presents to a urology clinic with a 6-month history of difficulty achieving and maintaining erections sufficient for satisfactory sexual intercourse. she reports that erections occur occasionally but are not firm enough for penetration. The problem has caused significant distress and she now avoids initiating intimacy due to fear of failure. she denies morning erections and has noticed decreased libido. she has hypertension treated with a thiazide diuretic and drinks alcohol socially. she feels embarrassed and questions her masculinity.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-092",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 22-year-old female is evaluated after her family noticed she has been having trouble with daily activities. For the past 6 months, she has forgotten how to use the microwave and has left food burning on the stove. She repeats stories and questions multiple times during conversations. She has become lost while shopping at her usual grocery store. Her family reports that she seems more apathetic and has lost interest in hobbies she previously enjoyed. She occasionally becomes suspicious that people are stealing from her. There are no focal neurological signs, and her general medical examination is normal. Brain imaging shows diffuse cortical atrophy.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-034",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 17-year-old male Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. He served as a combat soldier and was involved in several firefights where he witnessed the deaths of fellow soldiers. Since returning home 6 months ago, he has had frequent nightmares of combat scenes and wakes up in a sweat. He experiences flashbacks triggered by loud noises that remind him of gunfire, during which he feels as if he is back in that situation. He avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. He drinks alcohol nightly to 'calm his nerves.'",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-065",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 25-year-old male is referred by his primary care physician for evaluation of erectile dysfunction. For the past 6 months, he has been unable to achieve erections despite sexual stimulation. He describes erections that start but then fade quickly. This has led to avoidance of sexual activity and strain on his relationship. He reports feeling anxious and depressed about the situation. He has diabetes mellitus and takes metformin. He denies tobacco use but admits to occasional recreational drug use.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-075",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 64-year-old male is referred for evaluation after being arrested for burglary. He has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. He has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. He shows no empathy for victims and often rationalizes his behavior. His parents report that he has always been oppositional and has never responded well to discipline. He began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "OBS-028",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "obsessive-compulsive disorder",
+    "narrative": "A 49-year-old female is evaluated for debilitating anxiety symptoms. she has had obsessions about symmetry and order for 6 months, spending hours arranging objects perfectly. she has contamination fears, showering multiple times daily and changing clothes frequently. she has mental compulsions like counting or repeating phrases to neutralize bad thoughts. she avoids situations that trigger obsessions, like public restrooms. her rituals interfere with work and relationships. she feels ashamed of her symptoms and has not told anyone. she reports feeling depressed and has suicidal thoughts. she has tried SSRIs prescribed by her PCP with partial relief. He has a family history of anxiety disorders. she wants help to control her impulses.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-096",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 61-year-old female presents with his wife who reports that she has become increasingly forgetful over the past 6 months. she forgets appointments, misplaces objects, and has trouble following conversations. she has gotten lost while walking in their neighborhood on several occasions. she becomes frustrated and angry when she can't remember things, and has withdrawn from social activities. she has trouble with basic calculations and has stopped managing their finances. There is no history of stroke or head trauma. His wife notes that he sometimes accuses her of hiding her belongings when she can't find them. Neuropsychological testing shows deficits in memory and executive functioning.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ANX-023",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Panic Disorder",
+    "narrative": "A 55-year-old male reports recurrent panic attacks over 6 weeks, characterized by panic attacks with physical symptoms. Fear of having another attack has led to significant lifestyle changes, including avoiding public transportation and crowded places.",
+    "MSE": "The patient appears anxious and restless, with good eye contact but fidgeting. Speech is normal rate but tremulous. Mood anxious, affect reactive. Thought processes coherent. No hallucinations or delusions, but anxious preoccupation. Cognitively intact with impaired concentration due to anxiety. Insight good, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.02,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-007",
+    "category": "Depressive Disorders",
+    "age_group": "older_adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 67-year-old female presents with symptoms consistent with Major Depressive Disorder. Duration of 12 months with difficulty concentrating and making decisions.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SUB-084",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "opioid use disorder",
+    "narrative": "A 16-year-old male presents to the addiction clinic after being arrested for prescription fraud. He started using oxycodone for back pain 2 years ago and developed dependence. For the past 6 months, he has been taking higher doses and crushing pills to snort them. He experiences withdrawal symptoms like nausea, sweating, and anxiety when trying to stop. He has lost his job and strained relationships with family. He has been to detox twice but relapsed quickly. He reports feeling ashamed but continues using. He has tried methadone but didn't like the program. He has chronic pain from a work injury. He denies other substance use but admits to drinking occasionally. He expresses desire for help but fears withdrawal. He has symptoms of depression and anxiety.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-058",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 27-year-old female presents to a urology clinic with a 6-month history of difficulty achieving and maintaining erections sufficient for satisfactory sexual intercourse. she reports that erections occur occasionally but are not firm enough for penetration. The problem has caused significant distress and she now avoids initiating intimacy due to fear of failure. she denies morning erections and has noticed decreased libido. she has hypertension treated with a thiazide diuretic and drinks alcohol socially. she feels embarrassed and questions her masculinity.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-070",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adolescent",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 16-year-old female comes to the clinic concerned about her sexual performance. she reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. she describes partial erections that don't last long enough. This has caused him significant anxiety and she has started avoiding intimate situations. she has a history of coronary artery disease and takes multiple cardiac medications. she reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-068",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 35-year-old female comes to the clinic concerned about her sexual performance. she reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. she describes partial erections that don't last long enough. This has caused him significant anxiety and she has started avoiding intimate situations. she has a history of coronary artery disease and takes multiple cardiac medications. she reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-040",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 15-year-old female comes to the clinic after experiencing a home invasion 6 months ago. Since the incident, she has been unable to sleep in her bedroom and has installed multiple locks and security cameras throughout her home. She has recurrent nightmares about the intruder and experiences panic attacks when she hears unfamiliar noises at night. She avoids going out alone after dark and has quit her job because the commute made her too anxious. Her family reports that she startles easily and has become irritable and emotionally distant. She reports feeling guilty for surviving when others in similar situations have not.",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SOM-042",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "conversion disorder (functional neurological symptom disorder)",
+    "narrative": "A 15-year-old female is evaluated for episodes of seizures that don't respond to anticonvulsants. For the past 6 months, she has had frequent 'seizures' characterized by shaking and loss of awareness, but EEG shows no epileptiform activity. The episodes occur in front of others and she recovers quickly. She has a history of childhood abuse and current marital stress. She reports feeling numb in her extremities and has difficulty walking at times. Physical examination shows normal strength and coordination. She has been diagnosed with epilepsy and tried multiple medications. She reports feeling misunderstood by doctors. She has symptoms of anxiety and depression. She acknowledges stress triggers her symptoms but feels they are involuntary.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-010",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 24-year-old female comes to clinic reporting 5 weeks of feeling 'down' and irritable. Has lost interest in work and social activities, with feelings of worthlessness and excessive guilt. Sleep is disrupted with early morning awakening, and appetite has decreased leading to no significant weight change. Family history significant for similar episodes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-074",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 33-year-old female is referred for evaluation after being arrested for burglary. she has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. she has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. she shows no empathy for victims and often rationalizes her behavior. His parents report that he has always been oppositional and has never responded well to discipline. she began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-004",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 17-year-old female presents with symptoms consistent with Major Depressive Disorder. Duration of 7 months with depressed mood, anhedonia, and low energy.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-011",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 39-year-old male presents with a 10-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences feelings of worthlessness and excessive guilt, and has noticed insomnia and decreased appetite. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-036",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 35-year-old female Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. she served as a combat soldier and was involved in several firefights where she witnessed the deaths of fellow soldiers. Since returning home 6 months ago, she has had frequent nightmares of combat scenes and wakes up in a sweat. she experiences flashbacks triggered by loud noises that remind him of gunfire, during which she feels as if she is back in that situation. she avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. she drinks alcohol nightly to 'calm her nerves.'",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-060",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 43-year-old male comes to the clinic concerned about his sexual performance. He reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. He describes partial erections that don't last long enough. This has caused him significant anxiety and he has started avoiding intimate situations. He has a history of coronary artery disease and takes multiple cardiac medications. He reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-019",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 14-year-old female presents with symptoms consistent with Major Depressive Disorder. Duration of 4 months with feelings of worthlessness and excessive guilt.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "With Anxious Features"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SUB-083",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "opioid use disorder",
+    "narrative": "A 64-year-old female comes to the clinic seeking medication-assisted treatment. she has been addicted to opioids for 6 months, starting with prescription pain medication after surgery. she now uses heroin daily and has developed tolerance, needing increasing amounts. she has withdrawal symptoms when attempting abstinence. she has lost her job and home, living with friends. He has been in rehab twice but relapsed. she has chronic pain and uses opioids to manage it. she reports feeling depressed and anxious. she has tried counseling but found it unhelpful. she is motivated for treatment and wants to start buprenorphine. she has no other substance use but smokes cigarettes. He has a family history of addiction.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "PER-097",
+    "category": "Personality Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "borderline personality disorder",
+    "narrative": "A 13-year-old male is admitted to the psychiatric unit after a suicide attempt. he has a long history of unstable interpersonal relationships and self-harm. Over the past 6 months, he has been intensely involved with a new partner but became enraged when he didn't respond to texts immediately, accusing him of abandoning his. he has chronic feelings of emptiness and has tried multiple identities. he has dissociative episodes when stressed. he has been in multiple abusive relationships. he reports feeling numb emotionally most of the time. Her family reports she becomes a different person during episodes. he has symptoms of depression, anxiety, and PTSD. he has tried multiple therapies and medications. he feels hopeless about ever feeling stable.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-022",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 49-year-old female presents with a 11-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences depressed mood, anhedonia, and low energy, and has noticed chronic pain complaints. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "With Anxious Features"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "OBS-026",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "obsessive-compulsive disorder",
+    "narrative": "A 30-year-old male is evaluated for debilitating anxiety symptoms. He has had obsessions about symmetry and order for 6 months, spending hours arranging objects perfectly. He has contamination fears, showering multiple times daily and changing clothes frequently. He has mental compulsions like counting or repeating phrases to neutralize bad thoughts. He avoids situations that trigger obsessions, like public restrooms. His rituals interfere with work and relationships. He feels ashamed of his symptoms and has not told anyone. He reports feeling depressed and has suicidal thoughts. He has tried SSRIs prescribed by his PCP with partial relief. He has a family history of anxiety disorders. He wants help to control his impulses.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-038",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 42-year-old female Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. she served as a combat soldier and was involved in several firefights where she witnessed the deaths of fellow soldiers. Since returning home 6 months ago, she has had frequent nightmares of combat scenes and wakes up in a sweat. she experiences flashbacks triggered by loud noises that remind him of gunfire, during which she feels as if she is back in that situation. she avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. she drinks alcohol nightly to 'calm her nerves.'",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-077",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 21-year-old female presents to the child psychiatry clinic after being suspended from school for aggressive behavior. For the past 6 months, she has been involved in multiple physical altercations with peers and has destroyed school property on several occasions. She has been caught stealing money from classmates and lying about it when confronted. Her teachers report that she shows no remorse and often blames others for her actions. At home, she has been defiant toward her parents, staying out past curfew and ignoring household rules. She has a history of setting fires and being cruel to pets. There are no signs of intellectual disability or other neurodevelopmental disorders.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-014",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 56-year-old female presents with a 6-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences depressed mood, anhedonia, and low energy, and has noticed chronic pain complaints. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "With Anxious Features",
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "TRA-033",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "narrative": "A 46-year-old female Iraq War veteran presents to the VA clinic with complaints of poor sleep and irritability. she served as a combat soldier and was involved in several firefights where she witnessed the deaths of fellow soldiers. Since returning home 6 months ago, she has had frequent nightmares of combat scenes and wakes up in a sweat. she experiences flashbacks triggered by loud noises that remind him of gunfire, during which she feels as if she is back in that situation. she avoids crowded places and any news about the war, saying it makes him feel on edge. His wife notes that he is often jumpy at sudden sounds and has become emotionally distant. she drinks alcohol nightly to 'calm her nerves.'",
+    "MSE": "The patient appears anxious and avoids eye contact initially. He is cooperative but seems hypervigilant, frequently scanning the environment. Speech is hesitant at first but becomes more fluent. Mood is anxious and depressed, affect restricted. Thought processes show some circumstantiality when discussing trauma. No hallucinations but endorses intrusive memories. Fully oriented. Insight is fair, judgment intact though avoidance behaviors noted.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "PER-098",
+    "category": "Personality Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "borderline personality disorder",
+    "narrative": "A 14-year-old male comes to the clinic after being arrested for assault during an argument. he has a pattern of intense, unstable relationships and fear of abandonment. For the past 6 months, he has been cycling through periods of idealizing then devaluing her therapist. She has chronic suicidal ideation and has made multiple attempts. he reports feeling empty and has engaged in risky behaviors like unprotected sex and substance use. he has trouble controlling anger and has destroyed property during rages. he has been hospitalized several times. he acknowledges his diagnosis but feels treatments haven't helped. he has co-occurring depression and PTSD from childhood trauma.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-091",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 52-year-old male presents with his wife who reports that he has become increasingly forgetful over the past 6 months. He forgets appointments, misplaces objects, and has trouble following conversations. He has gotten lost while walking in their neighborhood on several occasions. He becomes frustrated and angry when he can't remember things, and has withdrawn from social activities. He has trouble with basic calculations and has stopped managing their finances. There is no history of stroke or head trauma. His wife notes that he sometimes accuses his of hiding his belongings when he can't find them. Neuropsychological testing shows deficits in memory and executive functioning.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-016",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 56-year-old female presents with a 12-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences feelings of worthlessness and excessive guilt, and has noticed insomnia and decreased appetite. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "With Melancholic Features"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ANX-025",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Panic Disorder",
+    "narrative": "A 59-year-old female presents with 4 months of excessive worry and anxiety. Experiences panic attacks with physical symptoms in multiple situations. Reports feeling restless and on edge, with difficulty concentrating. Has developed avoidance behaviors to prevent panic attacks.",
+    "MSE": "The patient appears anxious and restless, with good eye contact but fidgeting. Speech is normal rate but tremulous. Mood anxious, affect reactive. Thought processes coherent. No hallucinations or delusions, but anxious preoccupation. Cognitively intact with impaired concentration due to anxiety. Insight good, judgment intact.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.02,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-078",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 56-year-old female is referred for evaluation after being arrested for burglary. she has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. she has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. she shows no empathy for victims and often rationalizes her behavior. His parents report that he has always been oppositional and has never responded well to discipline. she began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-094",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 19-year-old male is brought to the neurology clinic by her daughter due to progressive memory problems. Over the last 6 months, he has had increasing difficulty remembering recent events and often repeats the same questions. he recently got lost while driving to a familiar grocery store. At home, he sometimes forgets to turn off the stove or leave the water running. Her family notes changes in her personality; she has become more apathetic and occasionally irritable, whereas he was previously very lively and engaged. There have been no hallucinations or delusional beliefs. his medical history is unremarkable aside from well-controlled hypertension. An MRI showed generalized cortical atrophy consistent with Alzheimer's disease.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "PAR-100",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "exhibitionistic disorder",
+    "narrative": "A 65-year-old male presents to the sexual disorders clinic after being arrested for indecent exposure. He reports a long-standing urge to expose himself in public, starting in adolescence. For the past 6 months, he has been exposing himself to women in parks and shopping centers, feeling sexually aroused by their reactions. He masturbates to fantasies of exposure. He feels distressed by his urges but continues the behavior. He has been arrested twice and fears losing his job if caught again. He reports feeling ashamed and has tried to stop but relapses under stress. He has a stable relationship but his partner is unaware. He denies other paraphilias. He has symptoms of anxiety and depression. He wants help to control his impulses.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-052",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 52-year-old female is evaluated for persistent bedwetting. Despite being toilet trained since age 2, she has been wetting the bed 2-3 times per week for the past 6 months. The problem started after her grandmother died and she began having nightmares. She has normal daytime bladder control and no urinary symptoms. Physical exam and urine studies are unremarkable. She reports feeling embarrassed and has stopped inviting friends for playdates. Her parents note that she seems more clingy and has trouble separating at bedtime. There is no history of abuse or significant stressors beyond the recent loss.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-061",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 24-year-old male comes to the clinic concerned about his sexual performance. He reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. He describes partial erections that don't last long enough. This has caused him significant anxiety and he has started avoiding intimate situations. He has a history of coronary artery disease and takes multiple cardiac medications. He reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-051",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 26-year-old female is evaluated for persistent bedwetting. Despite being toilet trained since age 2, she has been wetting the bed 2-3 times per week for the past 6 months. The problem started after her grandmother died and she began having nightmares. She has normal daytime bladder control and no urinary symptoms. Physical exam and urine studies are unremarkable. She reports feeling embarrassed and has stopped inviting friends for playdates. Her parents note that she seems more clingy and has trouble separating at bedtime. There is no history of abuse or significant stressors beyond the recent loss.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-080",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 14-year-old female is referred for evaluation after being arrested for burglary. she has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. she has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. she shows no empathy for victims and often rationalizes her behavior. His parents report that he has always been oppositional and has never responded well to discipline. she began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-005",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 33-year-old male presents with a 8-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences difficulty concentrating and making decisions, and has noticed fatigue and psychomotor retardation. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "Moderate",
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-009",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 15-year-old male presents with symptoms consistent with Major Depressive Disorder. Duration of 4 months with feelings of worthlessness and excessive guilt.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with impaired concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-069",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 45-year-old male comes to the clinic concerned about his sexual performance. He reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. He describes partial erections that don't last long enough. This has caused him significant anxiety and he has started avoiding intimate situations. He has a history of coronary artery disease and takes multiple cardiac medications. He reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-089",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 14-year-old female presents with his wife who reports that she has become increasingly forgetful over the past 6 months. she forgets appointments, misplaces objects, and has trouble following conversations. she has gotten lost while walking in their neighborhood on several occasions. she becomes frustrated and angry when she can't remember things, and has withdrawn from social activities. she has trouble with basic calculations and has stopped managing their finances. There is no history of stroke or head trauma. His wife notes that he sometimes accuses her of hiding her belongings when she can't find them. Neuropsychological testing shows deficits in memory and executive functioning.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-079",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 26-year-old male is referred for evaluation after being arrested for burglary. He has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. He has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. He shows no empathy for victims and often rationalizes his behavior. His parents report that he has always been oppositional and has never responded well to discipline. He began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-020",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 55-year-old female comes to clinic reporting 10 weeks of feeling 'down' and irritable. Has lost interest in work and social activities, with feelings of worthlessness and excessive guilt. Sleep is disrupted with early morning awakening, and appetite has decreased leading to no significant weight change. Family history significant for similar episodes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "Moderate"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-045",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 27-year-old male presents with his mother who reports that he continues to wet the bed despite being 27 years old. The bedwetting has been occurring 3-5 times per week for the past 6 months. He was dry at night for about 2 years but the problem returned after his parents' divorce. He denies daytime wetting and has normal urinary function during the day. Physical examination and urinalysis are normal. He reports feeling ashamed and has become reluctant to have friends sleep over. His mother notes that he seems more anxious and has trouble concentrating at school. There is no family history of bedwetting.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "PER-099",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "borderline personality disorder",
+    "narrative": "A 22-year-old female comes to the clinic after being arrested for assault during an argument. She has a pattern of intense, unstable relationships and fear of abandonment. For the past 6 months, she has been cycling through periods of idealizing then devaluing her therapist. She has chronic suicidal ideation and has made multiple attempts. She reports feeling empty and has engaged in risky behaviors like unprotected sex and substance use. She has trouble controlling anger and has destroyed property during rages. She has been hospitalized several times. She acknowledges her diagnosis but feels treatments haven't helped. She has co-occurring depression and PTSD from childhood trauma.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-071",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adolescent",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 15-year-old male presents to a urology clinic with a 6-month history of difficulty achieving and maintaining erections sufficient for satisfactory sexual intercourse. He reports that erections occur occasionally but are not firm enough for penetration. The problem has caused significant distress and he now avoids initiating intimacy due to fear of failure. He denies morning erections and has noticed decreased libido. He has hypertension treated with a thiazide diuretic and drinks alcohol socially. He feels embarrassed and questions his masculinity.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-082",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 31-year-old female is referred for evaluation after being arrested for burglary. she has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. she has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. she shows no empathy for victims and often rationalizes her behavior. His parents report that he has always been oppositional and has never responded well to discipline. she began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-057",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 39-year-old female comes to the clinic concerned about her sexual performance. she reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. she describes partial erections that don't last long enough. This has caused him significant anxiety and she has started avoiding intimate situations. she has a history of coronary artery disease and takes multiple cardiac medications. she reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SUB-085",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "opioid use disorder",
+    "narrative": "A 17-year-old female comes to the clinic seeking medication-assisted treatment. she has been addicted to opioids for 6 months, starting with prescription pain medication after surgery. she now uses heroin daily and has developed tolerance, needing increasing amounts. she has withdrawal symptoms when attempting abstinence. she has lost her job and home, living with friends. He has been in rehab twice but relapsed. she has chronic pain and uses opioids to manage it. she reports feeling depressed and anxious. she has tried counseling but found it unhelpful. she is motivated for treatment and wants to start buprenorphine. she has no other substance use but smokes cigarettes. He has a family history of addiction.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SCH-002",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Schizophrenia",
+    "narrative": "A 51-year-old female is brought by family due to 8 months of increasingly bizarre behavior. Reports hearing voices commenting on actions and believing television messages are directed personally. Has become socially withdrawn with disorganized thinking and flat affect.",
+    "MSE": "The patient appears disheveled with poor eye contact. Speech is normal but tangential. Mood flat, affect blunted. Thought processes disorganized. Thought content notable for delusions of reference and auditory hallucinations. Cognitively impaired with poor concentration. Insight poor, judgment severely impaired.",
+    "complexity": "high",
+    "difficulty_tier": "advanced",
+    "xp_value": 150,
+    "clinical_specifiers": [
+      "Disorganized Type"
+    ],
+    "unlock_requirements": {
+      "min_level": 5
+    },
+    "prevalence_weight": 0.01,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-076",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Conduct Disorder",
+    "narrative": "A 61-year-old female is referred for evaluation after being arrested for burglary. she has a history of conduct problems dating back to early childhood, but they have escalated over the past 6 months. she has been truant from school, has run away from home multiple times, and has been involved in fights and property destruction. she shows no empathy for victims and often rationalizes her behavior. His parents report that he has always been oppositional and has never responded well to discipline. she began using marijuana at age 12 and currently uses it daily. There is a family history of antisocial behavior and substance abuse.",
+    "MSE": "The adolescent appears defiant and avoids eye contact. He is minimally cooperative. Speech is monosyllabic. Mood irritable, affect labile. Thought processes show poor judgment. No hallucinations or delusions. Fully oriented. Poor insight, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "OBS-027",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "obsessive-compulsive disorder",
+    "narrative": "A 15-year-old male comes to the clinic after her husband insisted she seek help. he has been struggling with OCD symptoms for 6 months. he has intrusive thoughts that he might harm her children, leading to avoidance of being alone with them. he checks that appliances are off repeatedly and has elaborate cleaning rituals. he spends 4-5 hours daily on these compulsions. he feels compelled to count objects and arrange things symmetrically. he avoids situations that trigger obsessions, like public restrooms. his rituals interfere with work and relationships. he reports feeling exhausted and has symptoms of depression. he has tried exposure therapy in the past with some success but relapsed. No substance use or other mental health issues.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-006",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 46-year-old female presents with a 4-month history of persistent depressed mood. Reports feeling hopeless and worthless, with diminished interest in previously enjoyed activities. Experiences feelings of worthlessness and excessive guilt, and has noticed fatigue and psychomotor retardation. Denies suicidal ideation but admits to passive death wishes.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [
+      "With Anxious Features",
+      "With Melancholic Features"
+    ],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-054",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adolescent",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 15-year-old male comes to the clinic concerned about his sexual performance. He reports that over the past 6 months, erections have become unreliable and often insufficient for intercourse. He describes partial erections that don't last long enough. This has caused him significant anxiety and he has started avoiding intimate situations. He has a history of coronary artery disease and takes multiple cardiac medications. He reports feeling stressed at work and has trouble sleeping.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DIS-041",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "dissociative identity disorder",
+    "narrative": "A 32-year-old female presents to the trauma clinic with memory gaps and different 'parts' of herself. She reports having distinct personality states that take control at different times. For the past 6 months, she has experienced blackouts and lost time, discovering things she doesn't remember doing. She has child-like alters who come out during stress, and angry alters who protect her. She has dissociative amnesia for traumatic events from childhood. She reports severe childhood abuse by multiple perpetrators. She has been diagnosed with depression, anxiety, and PTSD. She experiences depersonalization and derealization. She has tried multiple therapies and hospitalizations. She feels confused and frightened by her symptoms. She has self-harm behaviors and suicidal ideation.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ANX-024",
+    "category": "Anxiety Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Panic Disorder",
+    "narrative": "A 16-year-old female presents with symptoms consistent with Panic Disorder. Duration of 11 months with avoidance of feared situations.",
+    "MSE": "The patient appears anxious and restless, with good eye contact but fidgeting. Speech is normal rate but tremulous. Mood anxious, affect reactive. Thought processes coherent. No hallucinations or delusions, but anxious preoccupation. Cognitively intact with intact concentration. Insight good, judgment intact.",
+    "complexity": "easy",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.02,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-093",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 40-year-old male is brought to the neurology clinic by her daughter due to progressive memory problems. Over the last 6 months, he has had increasing difficulty remembering recent events and often repeats the same questions. he recently got lost while driving to a familiar grocery store. At home, he sometimes forgets to turn off the stove or leave the water running. Her family notes changes in her personality; she has become more apathetic and occasionally irritable, whereas he was previously very lively and engaged. There have been no hallucinations or delusional beliefs. his medical history is unremarkable aside from well-controlled hypertension. An MRI showed generalized cortical atrophy consistent with Alzheimer's disease.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "SEX-059",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adolescent",
+    "diagnosis": "Erectile Disorder",
+    "narrative": "A 14-year-old female is referred by her primary care physician for evaluation of erectile dysfunction. For the past 6 months, she has been unable to achieve erections despite sexual stimulation. she describes erections that start but then fade quickly. This has led to avoidance of sexual activity and strain on her relationship. she reports feeling anxious and depressed about the situation. she has diabetes mellitus and takes metformin. she denies tobacco use but admits to occasional recreational drug use.",
+    "MSE": "The patient appears well-groomed and cooperative. He makes good eye contact but seems embarrassed when discussing sexual issues. Speech is normal in rate and tone. Mood is described as anxious and depressed, affect congruent. Thought processes are logical. No evidence of hallucinations or delusions. He is oriented and cognitively intact. Insight is good regarding the problem, judgment appropriate.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-046",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 47-year-old male presents with his mother who reports that he continues to wet the bed despite being 47 years old. The bedwetting has been occurring 3-5 times per week for the past 6 months. He was dry at night for about 2 years but the problem returned after his parents' divorce. He denies daytime wetting and has normal urinary function during the day. Physical examination and urinalysis are normal. He reports feeling ashamed and has become reluctant to have friends sleep over. His mother notes that he seems more anxious and has trouble concentrating at school. There is no family history of bedwetting.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-086",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 45-year-old female is evaluated after her family noticed she has been having trouble with daily activities. For the past 6 months, she has forgotten how to use the microwave and has left food burning on the stove. She repeats stories and questions multiple times during conversations. She has become lost while shopping at her usual grocery store. Her family reports that she seems more apathetic and has lost interest in hobbies she previously enjoyed. She occasionally becomes suspicious that people are stealing from her. There are no focal neurological signs, and her general medical examination is normal. Brain imaging shows diffuse cortical atrophy.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-050",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 20-year-old male is evaluated for persistent bedwetting. Despite being toilet trained since age 2, he has been wetting the bed 2-3 times per week for the past 6 months. The problem started after her grandmother died and she began having nightmares. he has normal daytime bladder control and no urinary symptoms. Physical exam and urine studies are unremarkable. he reports feeling embarrassed and has stopped inviting friends for playdates. Her parents note that she seems more clingy and has trouble separating at bedtime. There is no history of abuse or significant stressors beyond the recent loss.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-090",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 56-year-old male presents with his wife who reports that he has become increasingly forgetful over the past 6 months. He forgets appointments, misplaces objects, and has trouble following conversations. He has gotten lost while walking in their neighborhood on several occasions. He becomes frustrated and angry when he can't remember things, and has withdrawn from social activities. He has trouble with basic calculations and has stopped managing their finances. There is no history of stroke or head trauma. His wife notes that he sometimes accuses his of hiding his belongings when he can't find them. Neuropsychological testing shows deficits in memory and executive functioning.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "ELI-044",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Enuresis",
+    "narrative": "A 44-year-old female is brought to the pediatrician by his parents due to bedwetting. she has been wetting the bed about 4 nights per week for the past 6 months. she had achieved nighttime continence by age 4 and stayed dry for several years, but the bedwetting resumed after the family moved to a new home. There are no daytime accidents, and no medical issues have been identified on physical exam and urinalysis. The boy says she feels embarrassed and avoids sleepovers. The parents have tried limiting fluids in the evening and waking him at night, with little success. There is no history of constipation or urinary tract infections.",
+    "MSE": "The child appears his stated age, cooperative but embarrassed. Makes good eye contact. Speech is age-appropriate. Mood is anxious, affect congruent. Thought processes are logical for age. No psychotic symptoms. Fully oriented. Good insight into the problem, judgment intact.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "DEP-021",
+    "category": "Depressive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "A 13-year-old male presents with symptoms consistent with Major Depressive Disorder. Duration of 3 months with difficulty concentrating and making decisions.",
+    "MSE": "The patient appears unkempt with slumped posture and minimal eye contact. Speech is soft and slowed. Mood is depressed, affect constricted. Thought processes are coherent but ruminative. Thought content notable for hopelessness and worthlessness. No hallucinations or delusions. Cognitively intact with intact concentration. Insight fair, judgment impaired by pessimism.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [
+      "With Melancholic Features",
+      "Severe"
+    ],
+    "unlock_requirements": {
+      "min_level": 3
+    },
+    "prevalence_weight": 0.1,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "NEU-095",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "Major Neurocognitive Disorder due to Alzheimer's Disease",
+    "narrative": "A 16-year-old male presents with his wife who reports that he has become increasingly forgetful over the past 6 months. He forgets appointments, misplaces objects, and has trouble following conversations. He has gotten lost while walking in their neighborhood on several occasions. He becomes frustrated and angry when he can't remember things, and has withdrawn from social activities. He has trouble with basic calculations and has stopped managing their finances. There is no history of stroke or head trauma. His wife notes that he sometimes accuses his of hiding his belongings when he can't find them. Neuropsychological testing shows deficits in memory and executive functioning.",
+    "MSE": "The patient is neatly dressed but appears confused at times. She maintains eye contact but seems apathetic. Speech is slow with word-finding difficulties. Mood is neutral, affect blunted. Thought processes are concrete with impaired abstraction. No hallucinations or delusions currently. Disoriented to time, memory deficits evident. Insight is limited, judgment impaired.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  },
+  {
+    "case_id": "BIP-003",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adolescent",
+    "diagnosis": "bipolar i disorder",
+    "narrative": "A 14-year-old male is brought to the psychiatric emergency room by his family during a manic episode. For the past 6 weeks, he has been extremely energetic, sleeping only 2-3 hours per night but feeling rested. He has been spending money recklessly, buying expensive items he can't afford. He has grandiose ideas about his business abilities and has quit his job to start a new venture. He talks rapidly and jumps between topics. He has increased sexual activity and made inappropriate advances. He denies any problems and becomes irritable when questioned. His family reports similar episodes in the past that lasted weeks and were followed by deep depressions. He has a history of depression treated with antidepressants. He has been drinking more alcohol during this episode.",
+    "MSE": "Mental status examination reveals normal appearance, cooperative behavior, normal speech, neutral mood with congruent affect, coherent thought processes, no hallucinations or delusions, intact cognition, fair insight, and intact judgment.",
+    "complexity": "moderate",
+    "difficulty_tier": "intermediate",
+    "xp_value": 100,
+    "clinical_specifiers": [],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 1.0,
+    "symptom_variants": [],
+    "differential_combinations": []
+  }
+]

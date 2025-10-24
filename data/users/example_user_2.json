@@ -1,0 +1,168 @@
+{
+  "user_id": "user_def67890",
+  "username": "dr_jones",
+  "created_at": "2023-09-15T14:20:00Z",
+  "last_updated": "2023-10-22T09:30:00Z",
+  "last_login": "2023-10-22T09:30:00Z",
+  "preferences": {
+    "difficulty_preference": "advanced",
+    "focus_areas": ["Schizophrenia Spectrum and Other Psychotic Disorders", "Personality Disorders"],
+    "notifications": false,
+    "timer_enabled": false,
+    "theme": "dark",
+    "language": "en",
+    "auto_save": true,
+    "privacy_mode": true
+  },
+  "statistics": {
+    "total_cases_attempted": 50,
+    "total_correct": 45,
+    "overall_accuracy": 90.0,
+    "average_time_per_case": 120.0,
+    "favorite_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "last_login": "2023-10-22T09:30:00Z",
+    "total_session_time": 7200,
+    "sessions_completed": 12
+  },
+  "completed_cases": [
+    {
+      "case_id": "case_003",
+      "completed_at": "2023-10-22T08:00:00Z",
+      "xp_earned": 100,
+      "accuracy": 100.0,
+      "time_taken": 90,
+      "attempts": 1,
+      "difficulty": "advanced",
+       "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "is_correct": true
+    },
+    {
+      "case_id": "case_004",
+      "completed_at": "2023-10-22T08:45:00Z",
+      "xp_earned": 80,
+      "accuracy": 80.0,
+      "time_taken": 150,
+      "attempts": 1,
+      "difficulty": "intermediate",
+       "category": "Personality Disorders",
+      "is_correct": true
+    }
+  ],
+  "progress_data": {
+    "user_id": "user_def67890",
+    "username": "dr_jones",
+    "level": 8,
+    "total_xp": 2800,
+    "xp_to_next_level": 400,
+    "earned_achievements": [
+      {
+        "achievement_id": "first_case",
+        "earned_at": "2023-09-15T15:00:00Z",
+        "xp_awarded": 10
+      },
+      {
+        "achievement_id": "level_10",
+        "earned_at": "2023-10-20T10:00:00Z",
+        "xp_awarded": 50
+      }
+    ],
+    "specialties": {
+      "Schizophrenia Spectrum and Other Psychotic Disorders": {
+        "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+        "level": 9,
+        "cases_completed": 25,
+        "accuracy": 92.0,
+        "xp_earned": 1500,
+        "last_practiced": "2023-10-22T08:00:00Z"
+      },
+      "Personality Disorders": {
+        "category": "Personality Disorders",
+        "level": 7,
+        "cases_completed": 15,
+        "accuracy": 85.0,
+        "xp_earned": 800,
+        "last_practiced": "2023-10-22T08:45:00Z"
+      }
+    },
+    "streak_data": {
+      "current_streak": 12,
+      "longest_streak": 25,
+      "streak_start_date": "2023-10-10T08:00:00Z",
+      "last_correct_date": "2023-10-22T08:45:00Z",
+      "streak_multiplier": 1.5
+    },
+    "performance_metrics": {
+      "total_cases": 50,
+      "correct_diagnoses": 45,
+      "overall_accuracy": 90.0,
+      "average_time_per_case": 120.0,
+      "category_performance": {
+        "Schizophrenia Spectrum and Other Psychotic Disorders": {
+          "total": 25,
+          "correct": 23,
+          "total_time": 2250,
+          "accuracy": 92.0,
+          "avg_time": 90.0
+        },
+        "Personality Disorders": {
+          "total": 15,
+          "correct": 13,
+          "total_time": 2250,
+          "accuracy": 86.7,
+          "avg_time": 150.0
+        }
+      },
+      "difficulty_performance": {
+        "advanced": {
+          "total": 20,
+          "correct": 19,
+          "total_time": 1800,
+          "accuracy": 95.0,
+          "avg_time": 90.0
+        },
+        "intermediate": {
+          "total": 20,
+          "correct": 17,
+          "total_time": 2800,
+          "accuracy": 85.0,
+          "avg_time": 140.0
+        },
+        "beginner": {
+          "total": 10,
+          "correct": 9,
+          "total_time": 1500,
+          "accuracy": 90.0,
+          "avg_time": 150.0
+        }
+      },
+      "recent_performance": [
+        {
+          "timestamp": "2023-10-22T08:45:00Z",
+          "accuracy": 100.0,
+          "time_taken": 150,
+      "category": "Personality Disorders",
+          "difficulty": "intermediate"
+        }
+      ],
+      "improvement_trend": 8.5
+    },
+    "unlock_status": {
+      "unlocked_difficulties": ["beginner", "intermediate", "advanced"],
+       "unlocked_categories": ["Schizophrenia Spectrum and Other Psychotic Disorders", "Personality Disorders", "Depressive Disorders"],
+      "unlocked_special_features": ["expert_mode"],
+      "level_based_unlocks": {
+        "advanced": "2023-10-01T00:00:00Z"
+      },
+      "achievement_based_unlocks": {
+        "first_case": "2023-09-15T15:00:00Z",
+        "level_10": "2023-10-20T10:00:00Z"
+      }
+    },
+    "daily_activity": {},
+    "last_updated": "2023-10-22T09:30:00Z"
+  },
+  "password_hash": "ef92b778ba7a6c8f2150019a23c7c9c9b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b",
+  "salt": "def789ghi012",
+  "failed_login_attempts": 0,
+  "locked_until": null
+}

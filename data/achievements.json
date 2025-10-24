@@ -1,0 +1,403 @@
+{
+  "achievements": [
+    {
+      "id": "first_case",
+      "name": "First Steps",
+      "description": "Complete your first diagnosis case",
+      "category": "progression",
+      "xp_reward": 10,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "case_completion",
+        "count": 1
+      },
+      "icon": "🎯"
+    },
+    {
+      "id": "novice_diagnostician",
+      "name": "Novice Diagnostician",
+      "description": "Complete 10 cases with 80%+ accuracy",
+      "category": "skill",
+      "xp_reward": 50,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "case_completion_with_accuracy",
+        "count": 10,
+        "min_accuracy": 80
+      },
+      "icon": "🩺"
+    },
+     {
+       "id": "depressive_disorders_master",
+       "name": "Depressive Disorders Master",
+       "description": "Complete 15 depressive disorder cases with 90%+ accuracy",
+       "category": "specialty",
+       "xp_reward": 100,
+       "badge_type": "silver",
+       "requirements": {
+         "type": "category_mastery",
+         "category": "Depressive Disorders",
+         "count": 15,
+         "min_accuracy": 90
+       },
+       "icon": "🧠"
+     },
+     {
+       "id": "schizophrenia_spectrum_expert",
+       "name": "Schizophrenia Spectrum Expert",
+       "description": "Complete 10 schizophrenia spectrum cases with 85%+ accuracy",
+       "category": "specialty",
+       "xp_reward": 100,
+       "badge_type": "silver",
+       "requirements": {
+         "type": "category_mastery",
+         "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+         "count": 10,
+         "min_accuracy": 85
+       },
+       "icon": "🔮"
+     },
+     {
+       "id": "anxiety_disorders_specialist",
+       "name": "Anxiety Disorders Specialist",
+       "description": "Complete 12 anxiety disorder cases with 85%+ accuracy",
+       "category": "specialty",
+       "xp_reward": 75,
+       "badge_type": "silver",
+       "requirements": {
+         "type": "category_mastery",
+         "category": "Anxiety Disorders",
+         "count": 12,
+         "min_accuracy": 85
+       },
+       "icon": "😰"
+     },
+    {
+      "id": "speed_demon",
+      "name": "Speed Demon",
+      "description": "Complete 5 cases in under 2 minutes each with 100% accuracy",
+      "category": "speed",
+      "xp_reward": 75,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "speed_challenge",
+        "count": 5,
+        "max_time_seconds": 120,
+        "min_accuracy": 100
+      },
+      "icon": "⚡"
+    },
+    {
+      "id": "perfect_streak",
+      "name": "Perfect Streak",
+      "description": "Achieve a streak of 10 consecutive correct diagnoses",
+      "category": "streak",
+      "xp_reward": 100,
+      "badge_type": "gold",
+      "requirements": {
+        "type": "streak",
+        "count": 10,
+        "min_accuracy": 100
+      },
+      "icon": "🔥"
+    },
+    {
+      "id": "differential_master",
+      "name": "Differential Diagnosis Master",
+      "description": "Complete 5 differential diagnosis sets",
+      "category": "advanced",
+      "xp_reward": 150,
+      "badge_type": "gold",
+      "requirements": {
+        "type": "differential_completion",
+        "count": 5
+      },
+      "icon": "🔍"
+    },
+    {
+      "id": "expert_diagnostician",
+      "name": "Expert Diagnostician",
+      "description": "Complete 50 cases with 90%+ overall accuracy",
+      "category": "skill",
+      "xp_reward": 200,
+      "badge_type": "gold",
+      "requirements": {
+        "type": "case_completion_with_accuracy",
+        "count": 50,
+        "min_accuracy": 90
+      },
+      "icon": "👨‍⚕️"
+    },
+    {
+      "id": "level_10",
+      "name": "Rising Star",
+      "description": "Reach level 10",
+      "category": "progression",
+      "xp_reward": 50,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "level",
+        "min_level": 10
+      },
+      "icon": "⭐"
+    },
+    {
+      "id": "level_25",
+      "name": "Seasoned Professional",
+      "description": "Reach level 25",
+      "category": "progression",
+      "xp_reward": 100,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "level",
+        "min_level": 25
+      },
+      "icon": "🌟"
+    },
+    {
+      "id": "level_50",
+      "name": "Master Diagnostician",
+      "description": "Reach level 50",
+      "category": "progression",
+      "xp_reward": 250,
+      "badge_type": "gold",
+      "requirements": {
+        "type": "level",
+        "min_level": 50
+      },
+      "icon": "💫"
+    },
+    {
+      "id": "pediatric_specialist",
+      "name": "Pediatric Specialist",
+      "description": "Complete 15 child/adolescent cases with 85%+ accuracy",
+      "category": "specialty",
+      "xp_reward": 100,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "age_group_mastery",
+        "age_groups": ["child", "adolescent"],
+        "count": 15,
+        "min_accuracy": 85
+      },
+      "icon": "👶"
+    },
+    {
+      "id": "geriatric_specialist",
+      "name": "Geriatric Specialist",
+      "description": "Complete 10 older adult cases with 85%+ accuracy",
+      "category": "specialty",
+      "xp_reward": 100,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "age_group_mastery",
+        "age_groups": ["older_adult"],
+        "count": 10,
+        "min_accuracy": 85
+      },
+      "icon": "👴"
+    },
+    {
+      "id": "complex_case_master",
+      "name": "Complex Case Master",
+      "description": "Complete 10 expert-level cases with 80%+ accuracy",
+      "category": "advanced",
+      "xp_reward": 150,
+      "badge_type": "gold",
+      "requirements": {
+        "type": "difficulty_mastery",
+        "difficulty": "expert",
+        "count": 10,
+        "min_accuracy": 80
+      },
+      "icon": "🎓"
+    },
+    {
+      "id": "variety_is_spice",
+      "name": "Variety is Spice",
+      "description": "Complete cases from 10 different diagnostic categories",
+      "category": "exploration",
+      "xp_reward": 75,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "category_diversity",
+        "unique_categories": 10
+      },
+      "icon": "🌈"
+    },
+    {
+      "id": "persistent_learner",
+      "name": "Persistent Learner",
+      "description": "Complete cases on 7 different days",
+      "category": "consistency",
+      "xp_reward": 50,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "daily_activity",
+        "unique_days": 7
+      },
+      "icon": "📅"
+    },
+    {
+      "id": "weekend_warrior",
+      "name": "Weekend Warrior",
+      "description": "Complete 10 cases on weekends",
+      "category": "consistency",
+      "xp_reward": 75,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "weekend_activity",
+        "count": 10
+      },
+      "icon": "🏖️"
+    },
+    {
+      "id": "night_owl",
+      "name": "Night Owl",
+      "description": "Complete 5 cases between 10 PM and 6 AM",
+      "category": "time_based",
+      "xp_reward": 50,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "time_window",
+        "start_hour": 22,
+        "end_hour": 6,
+        "count": 5
+      },
+      "icon": "🦉"
+    },
+    {
+      "id": "early_bird",
+      "name": "Early Bird",
+      "description": "Complete 5 cases between 6 AM and 9 AM",
+      "category": "time_based",
+      "xp_reward": 50,
+      "badge_type": "bronze",
+      "requirements": {
+        "type": "time_window",
+        "start_hour": 6,
+        "end_hour": 9,
+        "count": 5
+      },
+      "icon": "🐦"
+    },
+    {
+      "id": "perfectionist",
+      "name": "Perfectionist",
+      "description": "Achieve 100% accuracy on 20 cases",
+      "category": "skill",
+      "xp_reward": 150,
+      "badge_type": "gold",
+      "requirements": {
+        "type": "perfect_cases",
+        "count": 20
+      },
+      "icon": "💯"
+    },
+    {
+      "id": "quick_thinker",
+      "name": "Quick Thinker",
+      "description": "Complete 25 cases with average time under 3 minutes",
+      "category": "speed",
+      "xp_reward": 100,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "average_time",
+        "count": 25,
+        "max_avg_time_seconds": 180
+      },
+      "icon": "⏱️"
+    },
+    {
+      "id": "marathon_session",
+      "name": "Marathon Session",
+      "description": "Complete 15 cases in a single session",
+      "category": "endurance",
+      "xp_reward": 100,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "session_cases",
+        "count": 15,
+        "max_session_hours": 4
+      },
+      "icon": "🏃"
+    },
+    {
+      "id": "comeback_kid",
+      "name": "Comeback Kid",
+      "description": "Get 3 cases wrong, then get 10 in a row correct",
+      "category": "resilience",
+      "xp_reward": 75,
+      "badge_type": "silver",
+      "requirements": {
+        "type": "recovery_streak",
+        "failures": 3,
+        "subsequent_successes": 10
+      },
+      "icon": "🔄"
+    }
+  ],
+  "badge_types": {
+    "bronze": {
+      "name": "Bronze",
+      "color": "#CD7F32",
+      "priority": 1
+    },
+    "silver": {
+      "name": "Silver",
+      "color": "#C0C0C0",
+      "priority": 2
+    },
+    "gold": {
+      "name": "Gold",
+      "color": "#FFD700",
+      "priority": 3
+    }
+  },
+  "categories": {
+    "progression": {
+      "name": "Progression",
+      "description": "Achievements related to leveling up and general progress"
+    },
+    "skill": {
+      "name": "Skill",
+      "description": "Achievements related to diagnostic accuracy and competence"
+    },
+    "specialty": {
+      "name": "Specialty",
+      "description": "Achievements related to mastering specific diagnostic categories"
+    },
+    "speed": {
+      "name": "Speed",
+      "description": "Achievements related to quick diagnosis"
+    },
+    "streak": {
+      "name": "Streak",
+      "description": "Achievements related to consecutive correct diagnoses"
+    },
+    "advanced": {
+      "name": "Advanced",
+      "description": "Achievements for complex diagnostic scenarios"
+    },
+    "exploration": {
+      "name": "Exploration",
+      "description": "Achievements for trying different types of cases"
+    },
+    "consistency": {
+      "name": "Consistency",
+      "description": "Achievements for regular practice"
+    },
+    "time_based": {
+      "name": "Time-based",
+      "description": "Achievements based on when you practice"
+    },
+    "endurance": {
+      "name": "Endurance",
+      "description": "Achievements for long practice sessions"
+    },
+    "resilience": {
+      "name": "Resilience",
+      "description": "Achievements for bouncing back from mistakes"
+    }
+  }
+}

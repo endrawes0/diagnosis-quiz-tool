@@ -1,0 +1,273 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Quiz Configuration",
+  "description": "Schema for quiz configuration settings in the diagnosis quiz tool",
+  "type": "object",
+  "required": [
+    "num_choices",
+    "shuffle",
+    "filters"
+  ],
+  "properties": {
+    "num_choices": {
+      "type": "integer",
+      "description": "Number of answer choices to display for each question",
+      "minimum": 2,
+      "maximum": 10,
+      "example": 4
+    },
+    "shuffle": {
+      "type": "boolean",
+      "description": "Whether to shuffle the order of answer choices",
+      "example": true
+    },
+    "filters": {
+      "type": "object",
+      "description": "Filter settings for case selection",
+      "required": ["categories", "age_groups", "complexities"],
+      "properties": {
+        "categories": {
+          "type": "array",
+          "description": "Diagnostic categories to include in the quiz",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Neurodevelopmental Disorders",
+              "Schizophrenia Spectrum and Other Psychotic Disorders",
+              "Bipolar and Related Disorders",
+              "Depressive Disorders",
+              "Anxiety Disorders",
+              "Obsessive-Compulsive and Related Disorders",
+              "Trauma- and Stressor-Related Disorders",
+              "Dissociative Disorders",
+              "Somatic Symptom and Related Disorders",
+              "Feeding and Eating Disorders",
+              "Elimination Disorders",
+              "Sleep-Wake Disorders",
+              "Sexual Dysfunctions",
+              "Gender Dysphoria",
+              "Disruptive, Impulse-Control, and Conduct Disorders",
+              "Substance-Related and Addictive Disorders",
+              "Neurocognitive Disorders",
+              "Personality Disorders",
+              "Paraphilic Disorders"
+            ]
+          },
+          "minItems": 1,
+          "example": [
+            "Depressive Disorders",
+            "Anxiety Disorders",
+            "Schizophrenia Spectrum and Other Psychotic Disorders"
+          ]
+        },
+        "age_groups": {
+          "type": "array",
+          "description": "Age groups to include in the quiz",
+          "items": {
+            "type": "string",
+            "enum": ["child", "adolescent", "adult", "older_adult"]
+          },
+          "minItems": 1,
+          "example": ["adult", "adolescent"]
+        },
+        "complexities": {
+          "type": "array",
+          "description": "Complexity levels to include in the quiz",
+          "items": {
+            "type": "string",
+            "enum": ["basic", "intermediate", "advanced"]
+          },
+          "minItems": 1,
+          "example": ["basic", "intermediate"]
+        },
+        "difficulty_tiers": {
+          "type": "array",
+          "description": "Difficulty tiers to include (beginner, intermediate, advanced, expert)",
+          "items": {
+            "type": "string",
+            "enum": ["beginner", "intermediate", "advanced", "expert"]
+          },
+          "minItems": 1,
+          "example": ["beginner", "intermediate"]
+        },
+        "clinical_specifiers": {
+          "type": "array",
+          "description": "Clinical specifiers to include (severity, course, etc.)",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Mild", "Moderate", "Severe",
+              "Mild to Moderate", "Moderate to Severe",
+              "Recurrent", "Chronic", "Acute",
+              "In Partial Remission", "In Full Remission",
+              "With Psychotic Features", "Without Psychotic Features",
+              "With Catatonic Features", "With Peripartum Onset",
+              "With Seasonal Pattern", "With Atypical Features"
+            ]
+          },
+          "example": ["Moderate", "Severe", "Recurrent"]
+        },
+        "course_specifiers": {
+          "type": "array",
+          "description": "Course specifiers to include",
+          "items": {
+            "type": "string",
+            "enum": [
+              "First Episode", "Multiple Episodes",
+              "Continuous", "Episodic",
+              "Rapid Cycling", "With Interepisode Recovery"
+            ]
+          },
+          "example": ["First Episode", "Multiple Episodes"]
+        },
+        "symptom_variants": {
+          "type": "array",
+          "description": "Symptom variants to include",
+          "items": {
+            "type": "string"
+          },
+          "example": ["with melancholic features", "with anxious features"]
+        },
+        "specifics": {
+          "type": "array",
+          "description": "Specific diagnoses or case IDs to include (optional)",
+          "items": {
+            "type": "string",
+            "description": "Either a diagnosis name or case_id"
+          },
+          "example": [
+            "Major Depressive Disorder",
+            "case_001",
+            "Generalized Anxiety Disorder"
+          ]
+        },
+        "exclude_specifics": {
+          "type": "array",
+          "description": "Specific diagnoses or case IDs to exclude (optional)",
+          "items": {
+            "type": "string",
+            "description": "Either a diagnosis name or case_id to exclude"
+          },
+          "example": [
+            "Schizophrenia",
+            "case_999"
+          ]
+        },
+        "prevalence_weighting": {
+          "type": "boolean",
+          "description": "Whether to weight case selection by prevalence rates",
+          "example": true
+        },
+        "max_cases": {
+          "type": "integer",
+          "description": "Maximum number of cases to include in the quiz (optional)",
+          "minimum": 1,
+          "example": 20
+        }
+      },
+      "additionalProperties": false
+    },
+    "quiz_settings": {
+      "type": "object",
+      "description": "Additional quiz settings (optional)",
+      "properties": {
+        "time_limit": {
+          "type": "integer",
+          "description": "Time limit per question in seconds (optional)",
+          "minimum": 30,
+          "example": 120
+        },
+        "show_feedback": {
+          "type": "boolean",
+          "description": "Whether to show immediate feedback after each answer",
+          "example": true
+        },
+        "show_explanations": {
+          "type": "boolean",
+          "description": "Whether to show detailed explanations for correct answers",
+          "example": true
+        },
+        "allow_review": {
+          "type": "boolean",
+          "description": "Whether to allow reviewing answers before final submission",
+          "example": true
+        },
+        "passing_score": {
+          "type": "number",
+          "description": "Minimum percentage score to pass the quiz (optional)",
+          "minimum": 0,
+          "maximum": 100,
+          "example": 70
+        }
+      },
+      "additionalProperties": false
+    },
+    "display_settings": {
+      "type": "object",
+      "description": "Display and UI settings (optional)",
+      "properties": {
+        "theme": {
+          "type": "string",
+          "description": "UI theme",
+          "enum": ["light", "dark", "auto"],
+          "example": "light"
+        },
+        "font_size": {
+          "type": "string",
+          "description": "Font size for text display",
+          "enum": ["small", "medium", "large"],
+          "example": "medium"
+        },
+        "show_progress": {
+          "type": "boolean",
+          "description": "Whether to show progress bar",
+          "example": true
+        },
+        "show_timer": {
+          "type": "boolean",
+          "description": "Whether to show countdown timer",
+          "example": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+     "example": {
+     "num_choices": 4,
+     "shuffle": true,
+     "filters": {
+       "categories": [
+         "Depressive Disorders",
+         "Anxiety Disorders",
+         "Schizophrenia Spectrum and Other Psychotic Disorders"
+       ],
+      "age_groups": ["adult", "adolescent"],
+      "complexities": ["basic", "intermediate"],
+      "difficulty_tiers": ["beginner", "intermediate"],
+      "clinical_specifiers": ["Moderate", "Severe"],
+      "course_specifiers": ["First Episode"],
+      "symptom_variants": ["with anxious features"],
+      "specifics": [
+        "Major Depressive Disorder",
+        "Generalized Anxiety Disorder"
+      ],
+      "exclude_specifics": ["Schizophrenia"],
+      "prevalence_weighting": true,
+      "max_cases": 15
+    },
+    "quiz_settings": {
+      "time_limit": 120,
+      "show_feedback": true,
+      "show_explanations": true,
+      "allow_review": true,
+      "passing_score": 70
+    },
+    "display_settings": {
+      "theme": "light",
+      "font_size": "medium",
+      "show_progress": true,
+      "show_timer": true
+    }
+  }
+}

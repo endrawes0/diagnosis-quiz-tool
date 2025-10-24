@@ -1,0 +1,153 @@
+{
+  "user_id": "user_abc12345",
+  "username": "dr_smith",
+  "created_at": "2023-10-23T10:30:00Z",
+  "last_updated": "2023-10-23T15:45:00Z",
+  "last_login": "2023-10-23T15:45:00Z",
+  "preferences": {
+    "difficulty_preference": "intermediate",
+    "focus_areas": ["Depressive Disorders", "Anxiety Disorders"],
+    "notifications": true,
+    "timer_enabled": true,
+    "theme": "default",
+    "language": "en",
+    "auto_save": true,
+    "privacy_mode": false
+  },
+  "statistics": {
+    "total_cases_attempted": 25,
+    "total_correct": 20,
+    "overall_accuracy": 80.0,
+    "average_time_per_case": 165.5,
+    "favorite_category": "Depressive Disorders",
+    "last_login": "2023-10-23T15:45:00Z",
+    "total_session_time": 3600,
+    "sessions_completed": 5
+  },
+  "completed_cases": [
+    {
+      "case_id": "case_001",
+      "completed_at": "2023-10-23T11:00:00Z",
+      "xp_earned": 50,
+      "accuracy": 100.0,
+      "time_taken": 180,
+      "attempts": 1,
+      "difficulty": "beginner",
+       "category": "Depressive Disorders",
+      "is_correct": true
+    },
+    {
+      "case_id": "case_002",
+      "completed_at": "2023-10-23T12:30:00Z",
+      "xp_earned": 75,
+      "accuracy": 80.0,
+      "time_taken": 240,
+      "attempts": 2,
+      "difficulty": "intermediate",
+       "category": "Anxiety Disorders",
+      "is_correct": true
+    }
+  ],
+  "progress_data": {
+    "user_id": "user_abc12345",
+    "username": "dr_smith",
+    "level": 5,
+    "total_xp": 1250,
+    "xp_to_next_level": 250,
+    "earned_achievements": [
+      {
+        "achievement_id": "first_case",
+        "earned_at": "2023-10-23T11:00:00Z",
+        "xp_awarded": 10
+      }
+    ],
+    "specialties": {
+      "Depressive Disorders": {
+        "category": "Depressive Disorders",
+        "level": 7,
+        "cases_completed": 15,
+        "accuracy": 85.0,
+        "xp_earned": 750,
+        "last_practiced": "2023-10-23T11:00:00Z"
+      },
+      "Anxiety Disorders": {
+        "category": "Anxiety Disorders",
+        "level": 5,
+        "cases_completed": 10,
+        "accuracy": 75.0,
+        "xp_earned": 500,
+        "last_practiced": "2023-10-23T12:30:00Z"
+      }
+    },
+    "streak_data": {
+      "current_streak": 7,
+      "longest_streak": 15,
+      "streak_start_date": "2023-10-20T09:00:00Z",
+      "last_correct_date": "2023-10-23T12:30:00Z",
+      "streak_multiplier": 1.25
+    },
+    "performance_metrics": {
+      "total_cases": 25,
+      "correct_diagnoses": 20,
+      "overall_accuracy": 80.0,
+      "average_time_per_case": 165.5,
+      "category_performance": {
+        "Depressive Disorders": {
+          "total": 15,
+          "correct": 13,
+          "total_time": 2700,
+          "accuracy": 86.7,
+          "avg_time": 180.0
+        },
+        "Anxiety Disorders": {
+          "total": 10,
+          "correct": 7,
+          "total_time": 1800,
+          "accuracy": 70.0,
+          "avg_time": 180.0
+        }
+      },
+      "difficulty_performance": {
+        "beginner": {
+          "total": 10,
+          "correct": 9,
+          "total_time": 1500,
+          "accuracy": 90.0,
+          "avg_time": 150.0
+        },
+        "intermediate": {
+          "total": 15,
+          "correct": 11,
+          "total_time": 2632.5,
+          "accuracy": 73.3,
+          "avg_time": 175.5
+        }
+      },
+      "recent_performance": [
+        {
+          "timestamp": "2023-10-23T12:30:00Z",
+          "accuracy": 100.0,
+          "time_taken": 240,
+      "category": "Anxiety Disorders",
+          "difficulty": "intermediate"
+        }
+      ],
+      "improvement_trend": 5.2
+    },
+    "unlock_status": {
+      "unlocked_difficulties": ["beginner", "intermediate"],
+      "unlocked_categories": ["Depressive Disorders", "Anxiety Disorders"],
+      "unlocked_special_features": [],
+      "level_based_unlocks": {},
+      "achievement_based_unlocks": {
+        "first_case": "2023-10-23T11:00:00Z"
+      }
+    },
+    "daily_activity": {},
+    "last_updated": "2023-10-23T15:45:00Z"
+  },
+  "password_hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+  "salt": "abc123def456",
+  "failed_login_attempts": 0,
+  "locked_until": null
+}

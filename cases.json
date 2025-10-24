@@ -1,0 +1,1002 @@
+[
+  {
+    "case_id": "CASE-001",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 1 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with schizophrenia spectrum and other psychotic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-002",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 2 (Bipolar and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with bipolar and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-003",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 3 (Depressive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with depressive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-004",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 4 (Anxiety Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with anxiety disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-005",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 5 (Obsessive-Compulsive and Related Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with obsessive-compulsive and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-006",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 6 (Trauma- and Stressor-Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with trauma- and stressor-related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-007",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 7 (Dissociative Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with dissociative disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-008",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 8 (Somatic Symptom and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with somatic symptom and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-009",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 9 (Feeding and Eating Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with feeding and eating disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-010",
+    "category": "Elimination Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 10 (Elimination Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with elimination disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-011",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 11 (Sleep-Wake Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sleep-wake disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-012",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 12 (Sexual Dysfunctions)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sexual dysfunctions. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-013",
+    "category": "Gender Dysphoria",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 13 (Gender Dysphoria)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with gender dysphoria. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-014",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 14 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with disruptive, impulse-control, and conduct disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-015",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 15 (Substance-Related and Addictive Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with substance-related and addictive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-016",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 16 (Neurocognitive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurocognitive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-017",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 17 (Personality Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with personality disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-018",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 18 (Paraphilic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with paraphilic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-019",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 19 (Neurodevelopmental Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurodevelopmental disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-020",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 20 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with schizophrenia spectrum and other psychotic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-021",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 21 (Bipolar and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with bipolar and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-022",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 22 (Depressive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with depressive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-023",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 23 (Anxiety Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with anxiety disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-024",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 24 (Obsessive-Compulsive and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with obsessive-compulsive and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-025",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 25 (Trauma- and Stressor-Related Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with trauma- and stressor-related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-026",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 26 (Dissociative Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with dissociative disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-027",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 27 (Somatic Symptom and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with somatic symptom and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-028",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 28 (Feeding and Eating Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with feeding and eating disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-029",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 29 (Elimination Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with elimination disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-030",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 30 (Sleep-Wake Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with sleep-wake disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-031",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 31 (Sexual Dysfunctions)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sexual dysfunctions. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-032",
+    "category": "Gender Dysphoria",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 32 (Gender Dysphoria)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with gender dysphoria. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-033",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 33 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with disruptive, impulse-control, and conduct disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-034",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 34 (Substance-Related and Addictive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with substance-related and addictive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-035",
+    "category": "Neurocognitive Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 35 (Neurocognitive Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with neurocognitive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-036",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 36 (Personality Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with personality disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-037",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 37 (Paraphilic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with paraphilic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-038",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 38 (Neurodevelopmental Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurodevelopmental disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-039",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 39 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with schizophrenia spectrum and other psychotic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-040",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 40 (Bipolar and Related Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with bipolar and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-041",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 41 (Depressive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with depressive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-042",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 42 (Anxiety Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with anxiety disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-043",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 43 (Obsessive-Compulsive and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with obsessive-compulsive and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-044",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 44 (Trauma- and Stressor-Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with trauma- and stressor-related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-045",
+    "category": "Dissociative Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 45 (Dissociative Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with dissociative disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-046",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 46 (Somatic Symptom and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with somatic symptom and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-047",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 47 (Feeding and Eating Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with feeding and eating disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-048",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 48 (Elimination Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with elimination disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-049",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 49 (Sleep-Wake Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sleep-wake disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-050",
+    "category": "Sexual Dysfunctions",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 50 (Sexual Dysfunctions)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with sexual dysfunctions. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-051",
+    "category": "Gender Dysphoria",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 51 (Gender Dysphoria)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with gender dysphoria. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-052",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 52 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with disruptive, impulse-control, and conduct disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-053",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 53 (Substance-Related and Addictive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with substance-related and addictive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-054",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 54 (Neurocognitive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurocognitive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-055",
+    "category": "Personality Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 55 (Personality Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with personality disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-056",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 56 (Paraphilic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with paraphilic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-057",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 57 (Neurodevelopmental Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurodevelopmental disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-058",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 58 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with schizophrenia spectrum and other psychotic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-059",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 59 (Bipolar and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with bipolar and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-060",
+    "category": "Depressive Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 60 (Depressive Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with depressive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-061",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 61 (Anxiety Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with anxiety disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-062",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 62 (Obsessive-Compulsive and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with obsessive-compulsive and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-063",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 63 (Trauma- and Stressor-Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with trauma- and stressor-related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-064",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 64 (Dissociative Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with dissociative disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-065",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 65 (Somatic Symptom and Related Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with somatic symptom and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-066",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 66 (Feeding and Eating Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with feeding and eating disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-067",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 67 (Elimination Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with elimination disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-068",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 68 (Sleep-Wake Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sleep-wake disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-069",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 69 (Sexual Dysfunctions)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sexual dysfunctions. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-070",
+    "category": "Gender Dysphoria",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 70 (Gender Dysphoria)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with gender dysphoria. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-071",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 71 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with disruptive, impulse-control, and conduct disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-072",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 72 (Substance-Related and Addictive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with substance-related and addictive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-073",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 73 (Neurocognitive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurocognitive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-074",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 74 (Personality Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with personality disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-075",
+    "category": "Paraphilic Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 75 (Paraphilic Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with paraphilic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-076",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 76 (Neurodevelopmental Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurodevelopmental disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-077",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 77 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with schizophrenia spectrum and other psychotic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-078",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 78 (Bipolar and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with bipolar and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-079",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 79 (Depressive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with depressive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-080",
+    "category": "Anxiety Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 80 (Anxiety Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with anxiety disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-081",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 81 (Obsessive-Compulsive and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with obsessive-compulsive and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-082",
+    "category": "Trauma- and Stressor-Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 82 (Trauma- and Stressor-Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with trauma- and stressor-related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-083",
+    "category": "Dissociative Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 83 (Dissociative Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with dissociative disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-084",
+    "category": "Somatic Symptom and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 84 (Somatic Symptom and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with somatic symptom and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-085",
+    "category": "Feeding and Eating Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 85 (Feeding and Eating Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with feeding and eating disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-086",
+    "category": "Elimination Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 86 (Elimination Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with elimination disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-087",
+    "category": "Sleep-Wake Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 87 (Sleep-Wake Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sleep-wake disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-088",
+    "category": "Sexual Dysfunctions",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 88 (Sexual Dysfunctions)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with sexual dysfunctions. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-089",
+    "category": "Gender Dysphoria",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 89 (Gender Dysphoria)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with gender dysphoria. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-090",
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 90 (Disruptive, Impulse-Control, and Conduct Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with disruptive, impulse-control, and conduct disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-091",
+    "category": "Substance-Related and Addictive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 91 (Substance-Related and Addictive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with substance-related and addictive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-092",
+    "category": "Neurocognitive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 92 (Neurocognitive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with neurocognitive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-093",
+    "category": "Personality Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 93 (Personality Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with personality disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-094",
+    "category": "Paraphilic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 94 (Paraphilic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with paraphilic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-095",
+    "category": "Neurodevelopmental Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 95 (Neurodevelopmental Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with neurodevelopmental disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-096",
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 96 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with schizophrenia spectrum and other psychotic disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-097",
+    "category": "Bipolar and Related Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 97 (Bipolar and Related Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with bipolar and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-098",
+    "category": "Depressive Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 98 (Depressive Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with depressive disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "high",
+    "comorbidity": "Generalized Anxiety Disorder"
+  },
+  {
+    "case_id": "CASE-099",
+    "category": "Anxiety Disorders",
+    "age_group": "adult",
+    "diagnosis": "Sample Diagnosis 99 (Anxiety Disorders)",
+    "narrative": "A 35-year-old patient presents with symptoms consistent with anxiety disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "easy",
+    "comorbidity": "None"
+  },
+  {
+    "case_id": "CASE-100",
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "age_group": "child",
+    "diagnosis": "Sample Diagnosis 100 (Obsessive-Compulsive and Related Disorders)",
+    "narrative": "A 12-year-old patient presents with symptoms consistent with obsessive-compulsive and related disorders. Symptoms include anxiety, mood changes, and difficulty functioning. Family history suggests possible genetic vulnerability.",
+    "MSE": "Appearance: appropriate; Behavior: cooperative; Mood: anxious; Affect: congruent; Thought: goal-directed; Perception: intact; Insight: fair; Judgment: intact.",
+    "complexity": "moderate",
+    "comorbidity": "None"
+  }
+]

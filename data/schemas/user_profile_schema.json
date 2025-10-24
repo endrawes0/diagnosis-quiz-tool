@@ -1,0 +1,316 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Profile",
+  "description": "Schema for user profiles in the diagnosis quiz tool with gamified progression",
+  "type": "object",
+  "required": [
+    "user_id",
+    "username",
+    "created_at",
+    "level",
+    "total_xp",
+    "completed_cases",
+    "achievements"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Unique identifier for the user",
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "example": "user_12345"
+    },
+    "username": {
+      "type": "string",
+      "description": "Display name for the user",
+      "minLength": 3,
+      "maxLength": 30,
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "example": "dr_smith"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the user profile was created",
+      "example": "2023-10-23T10:30:00Z"
+    },
+    "level": {
+      "type": "integer",
+      "description": "User's current level based on XP",
+      "minimum": 1,
+      "example": 5
+    },
+    "total_xp": {
+      "type": "integer",
+      "description": "Total experience points earned",
+      "minimum": 0,
+      "example": 1250
+    },
+    "xp_to_next_level": {
+      "type": "integer",
+      "description": "XP needed to reach the next level",
+      "minimum": 0,
+      "example": 250
+    },
+    "completed_cases": {
+      "type": "array",
+      "description": "List of completed case IDs with performance data",
+      "items": {
+        "type": "object",
+        "properties": {
+          "case_id": {
+            "type": "string",
+            "description": "ID of the completed case"
+          },
+          "completed_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the case was completed"
+          },
+          "xp_earned": {
+            "type": "integer",
+            "description": "XP earned from this case",
+            "minimum": 0
+          },
+          "accuracy": {
+            "type": "number",
+            "description": "Diagnostic accuracy percentage",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "time_taken": {
+            "type": "integer",
+            "description": "Time taken in seconds",
+            "minimum": 0
+          },
+          "attempts": {
+            "type": "integer",
+            "description": "Number of attempts taken",
+            "minimum": 1
+          }
+        },
+        "required": ["case_id", "completed_at", "xp_earned"]
+      }
+    },
+    "achievements": {
+      "type": "array",
+      "description": "List of earned achievement IDs",
+      "items": {
+        "type": "string"
+      },
+       "example": ["first_case", "depressive_disorders_master", "speed_demon"]
+    },
+    "current_streak": {
+      "type": "integer",
+      "description": "Current streak of consecutive correct diagnoses",
+      "minimum": 0,
+      "example": 7
+    },
+    "longest_streak": {
+      "type": "integer",
+      "description": "Longest streak achieved",
+      "minimum": 0,
+      "example": 15
+    },
+    "specialties": {
+      "type": "object",
+      "description": "User's proficiency levels in different diagnostic categories",
+      "properties": {
+        "Depressive Disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "Schizophrenia Spectrum and Other Psychotic Disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "Anxiety Disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "personality_disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "substance_use_disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "neurodevelopmental_disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "trauma_stressor_related": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "eating_disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "obsessive_compulsive": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "somatic_symptom": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sleep_wake_disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sexual_dysfunctions": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "gender_dysphoria": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "disruptive_impulse_control": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "neurocognitive_disorders": {
+          "type": "integer",
+          "description": "Proficiency level (1-10)",
+          "minimum": 0,
+          "maximum": 10
+        }
+      }
+    },
+    "preferences": {
+      "type": "object",
+      "description": "User preferences and settings",
+      "properties": {
+        "difficulty_preference": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced", "expert", "mixed"],
+          "description": "Preferred difficulty level"
+        },
+        "focus_areas": {
+          "type": "array",
+          "description": "Preferred diagnostic categories to focus on",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notifications": {
+          "type": "boolean",
+          "description": "Whether notifications are enabled"
+        },
+        "timer_enabled": {
+          "type": "boolean",
+          "description": "Whether quiz timer is enabled"
+        }
+      },
+      "additionalProperties": false
+    },
+    "statistics": {
+      "type": "object",
+      "description": "User performance statistics",
+      "properties": {
+        "total_cases_attempted": {
+          "type": "integer",
+          "description": "Total number of cases attempted",
+          "minimum": 0
+        },
+        "total_correct": {
+          "type": "integer",
+          "description": "Total number of correct diagnoses",
+          "minimum": 0
+        },
+        "overall_accuracy": {
+          "type": "number",
+          "description": "Overall diagnostic accuracy percentage",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "average_time_per_case": {
+          "type": "integer",
+          "description": "Average time spent per case in seconds",
+          "minimum": 0
+        },
+        "favorite_category": {
+          "type": "string",
+          "description": "Most practiced diagnostic category"
+        },
+        "last_login": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last login timestamp"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "example": {
+    "user_id": "user_12345",
+    "username": "dr_smith",
+    "created_at": "2023-10-23T10:30:00Z",
+    "level": 5,
+    "total_xp": 1250,
+    "xp_to_next_level": 250,
+    "completed_cases": [
+      {
+        "case_id": "case_001",
+        "completed_at": "2023-10-23T11:00:00Z",
+        "xp_earned": 50,
+        "accuracy": 100,
+        "time_taken": 180,
+        "attempts": 1
+      }
+    ],
+     "achievements": ["first_case", "depressive_disorders_master"],
+    "current_streak": 7,
+    "longest_streak": 15,
+    "specialties": {
+      "Depressive Disorders": 7,
+      "Anxiety Disorders": 5,
+      "Schizophrenia Spectrum and Other Psychotic Disorders": 3
+    },
+    "preferences": {
+      "difficulty_preference": "intermediate",
+      "focus_areas": ["Depressive Disorders", "Anxiety Disorders"],
+      "notifications": true,
+      "timer_enabled": true
+    },
+    "statistics": {
+      "total_cases_attempted": 25,
+      "total_correct": 20,
+      "overall_accuracy": 80.0,
+      "average_time_per_case": 165,
+      "favorite_category": "Depressive Disorders",
+      "last_login": "2023-10-23T12:00:00Z"
+    }
+  }
+}

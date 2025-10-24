@@ -1,0 +1,24 @@
+# Test requirements for the diagnosis quiz tool
+# Install with: pip install -r test_requirements.txt
+
+# Core testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Additional testing tools
+hypothesis>=6.0.0  # Property-based testing
+pytest-xdist>=3.0.0  # Parallel test execution
+pytest-benchmark>=4.0.0  # Performance testing
+
+# Coverage and reporting
+coverage>=7.0.0
+pytest-html>=3.0.0  # HTML test reports
+
+# Development and linting
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Linting
+mypy>=1.0.0  # Type checking
+
+# Documentation testing
+pytest-doctest>=1.0.0

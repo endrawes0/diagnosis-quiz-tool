@@ -1,0 +1,17 @@
+{
+  "num_questions": 10,
+  "num_choices": 4,
+  "shuffle": true,
+  "categories": [
+    "Depressive Disorders",
+    "Anxiety Disorders", 
+    "Bipolar and Related Disorders"
+  ],
+  "age_groups": ["adult", "adolescent"],
+  "complexities": ["moderate", "high"],
+  "quiz_settings": {
+    "show_feedback": true,
+    "show_explanations": true,
+    "passing_score": 70
+  }
+}
