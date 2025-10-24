@@ -1,6 +1,12 @@
 # Diagnosis Quiz Tool
 
-A professional command-line tool for creating and managing psychological disorder diagnosis quizzes, designed to help psychology and mental health students practice their diagnostic skills through interactive DSM-5 based case learning.
+A professional tool for creating and managing psychological disorder diagnosis quizzes, designed to help psychology and mental health students practice their diagnostic skills through interactive DSM-5 based case learning.
+
+## 🎓 **For Students: Easy Setup!**
+
+**Non-programmer?** No problem! See **[EASY_INSTALL.md](EASY_INSTALL.md)** for step-by-step instructions with no coding experience needed.
+
+**Quick Start**: Just run `./START_APP.sh` (Mac/Linux) or `START_APP.bat` (Windows) after setup!
 
 ## 🎯 Project Overview
 
