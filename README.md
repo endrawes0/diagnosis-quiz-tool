@@ -6,6 +6,15 @@ A professional command-line tool for creating and managing psychological disorde
 
 The Diagnosis Quiz Tool is a comprehensive Python application that generates realistic psychiatric clinical case quizzes from structured data. It supports DSM-5 psychiatric diagnostic categories, provides multiple difficulty levels, and offers both interactive and non-interactive quiz modes. The tool uses JSON Schema validation to ensure data integrity and provides detailed performance analytics.
 
+## 🤖 AI-Assisted Development
+
+This project was developed with **significant assistance from multiple AI coding assistants** (ChatGPT, OpenCode, and Claude), demonstrating modern AI-assisted software development practices. The project architecture, clinical content integration, and educational objectives were designed through iterative human-AI collaboration.
+
+See [ATTRIBUTION.md](ATTRIBUTION.md) for detailed credits and development methodology.
+
+**Human Creator**: Andrew Haddad - Project vision, requirements, validation, and final decisions
+**License**: MIT (see [LICENSE](LICENSE))
+
 ### Key Features
 
 - **🏥 Realistic Clinical Cases**: Based on actual clinical presentations and mental status examinations
@@ -527,4 +536,18 @@ ls -la src/ui/cli.py
 
 **Diagnosis Quiz Tool** - Enhancing psychology and mental health education through interactive DSM-5 case-based learning.
 
-For questions, issues, or contributions, please visit the project repository or contact the development team.
+## 📄 License & Attribution
+
+- **License**: MIT License (see [LICENSE](LICENSE))
+- **Copyright**: © 2025 Andrew Haddad
+- **AI Attribution**: See [ATTRIBUTION.md](ATTRIBUTION.md) for detailed credits
+
+This project was developed with significant AI assistance. Full transparency about the development process is provided in the attribution document.
+
+## 📮 Contact
+
+**Creator**: Andrew Haddad
+**Email**: me@andrewwhaddad.com
+**GitHub**: https://github.com/endrawes0/diagnosis-quiz-tool
+
+For questions, issues, or contributions, please visit the project repository.
