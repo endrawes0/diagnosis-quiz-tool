@@ -1,0 +1,22 @@
+{
+  "user_abc12345": {
+    "username": "dr_smith",
+    "created_at": "2023-10-23T10:30:00Z",
+    "last_login": "2023-10-23T15:45:00Z"
+  },
+  "user_def67890": {
+    "username": "dr_jones",
+    "created_at": "2023-09-15T14:20:00Z",
+    "last_login": "2023-10-22T09:30:00Z"
+  },
+  "user_a1bbb9ef": {
+    "username": "test_user",
+    "created_at": "2025-10-23T06:01:09.654774",
+    "last_login": "2025-10-23T06:01:09.658432"
+  },
+  "user_21db5c5e": {
+    "username": "test",
+    "created_at": "2025-10-23T10:25:35.292309",
+    "last_login": "2025-10-23T10:25:35.294955"
+  }
+}

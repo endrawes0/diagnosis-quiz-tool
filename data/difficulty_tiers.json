@@ -1,0 +1,207 @@
+{
+  "difficulty_tiers": {
+    "beginner": {
+      "name": "Beginner",
+      "description": "Introduction to basic diagnostic concepts with clear, classic presentations",
+      "level_requirement": 1,
+      "xp_range": {
+        "min": 10,
+        "max": 100
+      },
+      "case_characteristics": {
+        "symptom_clarity": "Classic textbook presentations",
+        "differential_complexity": "Low (2-3 possible diagnoses)",
+        "rarity_factor": "Common conditions only",
+        "comorbidities": "Minimal or none",
+        "age_specificity": "Clear age-appropriate presentations",
+        "time_pressure": "Relaxed (no time limit or generous limits)"
+      },
+      "learning_objectives": [
+        "Recognize core diagnostic criteria",
+        "Identify key symptom patterns",
+        "Practice basic MSE interpretation",
+        "Develop systematic approach to diagnosis"
+      ],
+      "example_cases": [
+        "Classic Major Depressive Disorder in adults",
+        "Straightforward Panic Disorder",
+        "Typical ADHD presentation in children",
+        "Clear-cut Substance Use Disorder"
+      ],
+      "unlock_message": "Welcome to your diagnostic journey! Start with these foundational cases to build your skills.",
+      "completion_bonus": 50
+    },
+    "intermediate": {
+      "name": "Intermediate",
+      "description": "More complex presentations with subtle variations and common comorbidities",
+      "level_requirement": 5,
+      "xp_range": {
+        "min": 75,
+        "max": 200
+      },
+      "case_characteristics": {
+        "symptom_clarity": "Some atypical features or overlapping symptoms",
+        "differential_complexity": "Moderate (3-5 possible diagnoses)",
+        "rarity_factor": "Common and some less common conditions",
+        "comorbidities": "Common comorbidities present",
+        "age_specificity": "Some atypical age presentations",
+        "time_pressure": "Moderate time limits"
+      },
+      "learning_objectives": [
+        "Differentiate between similar disorders",
+        "Identify comorbid conditions",
+        "Recognize atypical presentations",
+        "Consider developmental factors in diagnosis"
+      ],
+      "example_cases": [
+        "Depression with anxious distress",
+        "Bipolar Disorder vs. ADHD in adolescents",
+        "PTSD with comorbid substance use",
+        "Personality Disorder traits with mood symptoms"
+      ],
+      "unlock_message": "You're ready for more complex challenges! These cases will test your differential diagnosis skills.",
+      "completion_bonus": 100
+    },
+    "advanced": {
+      "name": "Advanced",
+      "description": "Complex cases with multiple comorbidities, atypical presentations, and diagnostic challenges",
+      "level_requirement": 15,
+      "xp_range": {
+        "min": 150,
+        "max": 400
+      },
+      "case_characteristics": {
+        "symptom_clarity": "Atypical or masked presentations",
+        "differential_complexity": "High (5-8 possible diagnoses)",
+        "rarity_factor": "Includes rare and complex conditions",
+        "comorbidities": "Multiple, interacting comorbidities",
+        "age_specificity": "Cross-age or atypical age presentations",
+        "time_pressure": "Challenging time limits"
+      },
+      "learning_objectives": [
+        "Manage complex differential diagnoses",
+        "Identify rare disorders",
+        "Navigate diagnostic hierarchies",
+        "Handle medical-psychiatric overlap"
+      ],
+      "example_cases": [
+        "Schizoaffective Disorder vs. Bipolar with Psychotic Features",
+        "Complex PTSD with dissociative features",
+        "Neurocognitive disorder with psychiatric symptoms",
+        "Somatic Symptom Disorder with medical complexity"
+      ],
+      "unlock_message": "Expert-level challenges await! These cases will push your diagnostic abilities to the limit.",
+      "completion_bonus": 200
+    },
+    "expert": {
+      "name": "Expert",
+      "description": "Highly complex, rare, and challenging cases that require advanced clinical reasoning",
+      "level_requirement": 30,
+      "xp_range": {
+        "min": 300,
+        "max": 1000
+      },
+      "case_characteristics": {
+        "symptom_clarity": "Highly atypical or treatment-resistant presentations",
+        "differential_complexity": "Very high (8+ possible diagnoses)",
+        "rarity_factor": "Rare and emerging conditions",
+        "comorbidities": "Complex, multi-system comorbidities",
+        "age_specificity": "Complex developmental considerations",
+        "time_pressure": "Strict time limits with complexity"
+      },
+      "learning_objectives": [
+        "Master complex clinical reasoning",
+        "Identify emerging diagnostic entities",
+        "Integrate multiple theoretical frameworks",
+        "Handle diagnostic uncertainty"
+      ],
+      "example_cases": [
+        "Treatment-resistant psychosis with medical complications",
+        "Complex dissociative disorders with trauma history",
+        "Neurodevelopmental disorders in older adults",
+        "Factitious disorders vs. conversion disorders"
+      ],
+      "unlock_message": "You've reached the pinnacle! These cases represent the most challenging diagnostic scenarios in psychiatry.",
+      "completion_bonus": 500
+    }
+  },
+  "progression_rules": {
+    "unlock_mechanism": "Automatic when level requirement is met",
+    "difficulty_scaling": "XP rewards scale with complexity and accuracy",
+    "streak_bonuses": {
+      "beginner": "+5 XP per correct case in streak",
+      "intermediate": "+10 XP per correct case in streak",
+      "advanced": "+15 XP per correct case in streak",
+      "expert": "+25 XP per correct case in streak"
+    },
+    "time_bonuses": {
+      "description": "Bonus XP for quick, accurate diagnoses",
+      "beginner": "No time pressure",
+      "intermediate": "+10% XP for completion under 3 minutes",
+      "advanced": "+20% XP for completion under 2 minutes",
+      "expert": "+30% XP for completion under 90 seconds"
+    },
+    "accuracy_bonuses": {
+      "perfect": "+50% XP bonus for 100% accuracy",
+      "excellent": "+25% XP bonus for 90-99% accuracy",
+      "good": "+10% XP bonus for 80-89% accuracy"
+    },
+    "specialty_bonuses": {
+      "description": "Bonus XP for working in less-practiced categories",
+      "novice_category": "+20% XP for categories with <5 cases completed",
+      "developing_category": "+10% XP for categories with 5-15 cases completed",
+      "expert_category": "No bonus for categories with >15 cases completed"
+    }
+  },
+  "adaptive_difficulty": {
+    "enabled": true,
+    "description": "System adjusts difficulty based on user performance",
+    "performance_thresholds": {
+      "promote_to_next_tier": {
+        "required_cases": 10,
+        "min_accuracy": 85,
+        "avg_completion_time": "Under time limit"
+      },
+      "demote_to_previous_tier": {
+        "required_cases": 5,
+        "max_accuracy": 60,
+        "description": "Suggest easier cases if struggling"
+      }
+    },
+    "recommendation_system": {
+      "factors": [
+        "Recent performance",
+        "Category strengths/weaknesses",
+        "Streak status",
+        "Time of day patterns",
+        "Preferred difficulty"
+      ]
+    }
+  },
+  "tier_badges": {
+    "beginner": {
+      "badge_id": "beginner_diagnostician",
+      "name": "Beginner Diagnostician",
+      "description": "Complete 10 beginner-level cases",
+      "icon": "🌱"
+    },
+    "intermediate": {
+      "badge_id": "intermediate_diagnostician", 
+      "name": "Intermediate Diagnostician",
+      "description": "Complete 15 intermediate-level cases",
+      "icon": "🌿"
+    },
+    "advanced": {
+      "badge_id": "advanced_diagnostician",
+      "name": "Advanced Diagnostician", 
+      "description": "Complete 10 advanced-level cases",
+      "icon": "🌳"
+    },
+    "expert": {
+      "badge_id": "expert_diagnostician",
+      "name": "Expert Diagnostician",
+      "description": "Complete 5 expert-level cases",
+      "icon": "🌲"
+    }
+  }
+}

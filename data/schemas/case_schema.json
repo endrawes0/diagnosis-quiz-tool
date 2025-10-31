@@ -1,0 +1,285 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Diagnosis Quiz Case",
+  "description": "Schema for individual case studies in the diagnosis quiz tool",
+  "type": "object",
+  "required": [
+    "case_id",
+    "category",
+    "age_group",
+    "diagnosis",
+    "narrative",
+    "MSE",
+    "complexity",
+    "difficulty_tier",
+    "xp_value"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "description": "Unique identifier for the case study",
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "example": "case_001"
+    },
+    "category": {
+      "type": "string",
+      "description": "Diagnostic category (e.g., mood disorders, psychotic disorders, anxiety disorders)",
+      "enum": [
+        "mood_disorders",
+        "psychotic_disorders",
+        "anxiety_disorders",
+        "personality_disorders",
+        "substance_use_disorders",
+        "neurodevelopmental_disorders",
+        "trauma_stressor_related",
+        "eating_disorders",
+        "obsessive_compulsive",
+        "somatic_symptom",
+        "sleep_wake_disorders",
+        "sexual_dysfunctions",
+        "gender_dysphoria",
+        "disruptive_impulse_control",
+        "neurocognitive_disorders"
+      ],
+      "example": "mood_disorders"
+    },
+    "age_group": {
+      "type": "string",
+      "description": "Age group of the patient",
+      "enum": ["child", "adolescent", "adult", "older_adult"],
+      "example": "adult"
+    },
+    "diagnosis": {
+      "type": "string",
+      "description": "Primary diagnosis for the case",
+      "example": "Major Depressive Disorder"
+    },
+    "narrative": {
+      "type": "string",
+      "description": "Clinical narrative describing the patient's presentation, history, and symptoms",
+      "minLength": 50,
+      "example": "John is a 35-year-old male who presents with persistent low mood, loss of interest in activities, and significant weight loss over the past 6 weeks..."
+    },
+    "MSE": {
+      "type": "object",
+      "description": "Mental Status Examination findings",
+      "required": ["appearance", "behavior", "speech", "mood", "affect", "thought_process", "thought_content", "cognition", "insight", "judgment"],
+      "properties": {
+        "appearance": {
+          "type": "string",
+          "description": "Patient's physical appearance and grooming",
+          "example": "Well-groomed, appears stated age"
+        },
+        "behavior": {
+          "type": "string",
+          "description": "Observed behaviors and psychomotor activity",
+          "example": "Cooperative, appropriate eye contact"
+        },
+        "speech": {
+          "type": "string",
+          "description": "Speech characteristics including rate, volume, and coherence",
+          "example": "Normal rate and volume, coherent"
+        },
+        "mood": {
+          "type": "string",
+          "description": "Patient's reported emotional state",
+          "example": "Reports feeling 'depressed and hopeless'"
+        },
+        "affect": {
+          "type": "string",
+          "description": "Observed emotional expression",
+          "example": "Constricted, congruent with mood"
+        },
+        "thought_process": {
+          "type": "string",
+          "description": "Logical flow and organization of thoughts",
+          "example": "Logical and goal-directed"
+        },
+        "thought_content": {
+          "type": "string",
+          "description": "Content of thoughts including delusions, obsessions, or preoccupations",
+          "example": "No suicidal ideation, no hallucinations"
+        },
+        "cognition": {
+          "type": "string",
+          "description": "Cognitive functioning including orientation, memory, and concentration",
+          "example": "Alert and oriented x4, memory intact"
+        },
+        "insight": {
+          "type": "string",
+          "description": "Patient's understanding of their illness",
+          "example": "Fair insight into depressive symptoms"
+        },
+        "judgment": {
+          "type": "string",
+          "description": "Patient's decision-making abilities",
+          "example": "Appropriate judgment"
+        }
+      }
+    },
+    "complexity": {
+      "type": "string",
+      "description": "Difficulty level of the case",
+      "enum": ["basic", "intermediate", "advanced"],
+      "example": "intermediate"
+    },
+    "difficulty_tier": {
+      "type": "string",
+      "description": "Gamified difficulty tier for progression",
+      "enum": ["beginner", "intermediate", "advanced", "expert"],
+      "example": "intermediate"
+    },
+    "xp_value": {
+      "type": "integer",
+      "description": "Experience points awarded for completing this case",
+      "minimum": 10,
+      "maximum": 1000,
+      "example": 100
+    },
+    "clinical_specifiers": {
+      "type": "array",
+      "description": "Clinical severity and course specifiers",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Mild",
+          "Moderate", 
+          "Severe",
+          "Recurrent",
+          "Chronic",
+          "Acute",
+          "In Partial Remission",
+          "In Full Remission",
+          "With Catatonic Features",
+          "With Atypical Features",
+          "With Melancholic Features",
+          "With Psychotic Features",
+          "With Seasonal Pattern",
+          "With Rapid Cycling",
+          "With Mixed Features",
+          "Early Onset",
+          "Late Onset"
+        ]
+      },
+      "example": ["Moderate", "Recurrent"]
+    },
+    "unlock_requirements": {
+      "type": "object",
+      "description": "Requirements to unlock this case",
+      "properties": {
+        "min_level": {
+          "type": "integer",
+          "description": "Minimum user level required",
+          "minimum": 1,
+          "example": 5
+        },
+        "prerequisite_cases": {
+          "type": "array",
+          "description": "Case IDs that must be completed first",
+          "items": {
+            "type": "string"
+          },
+          "example": ["case_001", "case_002"]
+        },
+        "required_achievements": {
+          "type": "array",
+          "description": "Achievement IDs required to unlock",
+          "items": {
+            "type": "string"
+          },
+          "example": ["mood_disorders_master"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "differential_combinations": {
+      "type": "array",
+      "description": "Case combinations for differential diagnosis scenarios",
+      "items": {
+        "type": "object",
+        "properties": {
+          "combination_id": {
+            "type": "string",
+            "description": "Unique identifier for this combination"
+          },
+          "case_ids": {
+            "type": "array",
+            "description": "Case IDs in this differential set",
+            "items": {
+              "type": "string"
+            }
+          },
+          "focus_area": {
+            "type": "string",
+            "description": "Clinical focus area for this differential"
+          },
+          "bonus_xp": {
+            "type": "integer",
+            "description": "Bonus XP for completing differential set",
+            "minimum": 0
+          }
+        },
+        "required": ["combination_id", "case_ids", "focus_area"]
+      }
+    },
+    "prevalence_weight": {
+      "type": "number",
+      "description": "Weight factor based on prevalence rate for quiz selection (optional)",
+      "minimum": 0,
+      "maximum": 1,
+      "example": 0.15
+    },
+    "symptom_variants": {
+      "type": "array",
+      "description": "Alternative symptom presentations for this diagnosis (optional)",
+      "items": {
+        "type": "string",
+        "description": "Alternative symptom description"
+      },
+      "example": [
+        "Atypical presentation with increased appetite and hypersomnia",
+        "Seasonal pattern with winter exacerbation"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "example": {
+    "case_id": "case_001",
+    "category": "mood_disorders",
+    "age_group": "adult",
+    "diagnosis": "Major Depressive Disorder",
+    "narrative": "Sarah is a 28-year-old female who presents with 8 weeks of persistent sadness, anhedonia, and significant functional impairment. She reports difficulty sleeping, loss of appetite, and feelings of worthlessness.",
+    "MSE": {
+      "appearance": "Appears tired, disheveled clothing",
+      "behavior": "Psychomotor retardation, minimal eye contact",
+      "speech": "Slow, low volume, monotonous",
+      "mood": "Reports feeling 'sad and empty'",
+      "affect": "Dysphoric, constricted range",
+      "thought_process": "Linear but slow",
+      "thought_content": "Hopelessness, passive suicidal ideation",
+      "cognition": "Oriented x3, concentration impaired",
+      "insight": "Limited insight",
+      "judgment": "Poor judgment regarding self-care"
+    },
+    "complexity": "basic",
+    "difficulty_tier": "beginner",
+    "xp_value": 50,
+    "clinical_specifiers": ["Moderate", "Recurrent"],
+    "unlock_requirements": {
+      "min_level": 1
+    },
+    "prevalence_weight": 0.07,
+    "symptom_variants": [
+      "Atypical features with increased appetite",
+      "Melancholic features with early morning awakening"
+    ],
+    "differential_combinations": [
+      {
+        "combination_id": "depression_anxiety_diff",
+        "case_ids": ["case_001", "case_002"],
+        "focus_area": "Mood vs Anxiety Disorders",
+        "bonus_xp": 25
+      }
+    ]
+  }
+}

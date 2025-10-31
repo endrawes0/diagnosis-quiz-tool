@@ -1,0 +1,322 @@
+.caseCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.caseCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.caseCard.hovered {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.caseCard.grid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.caseCard.list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 1rem 0.5rem;
+}
+
+.caseInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.caseId {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 0.9rem;
+}
+
+.complexityBadge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.statusIndicator {
+  display: flex;
+  align-items: center;
+}
+
+.statusDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #e2e8f0;
+}
+
+.cardContent {
+  flex: 1;
+  padding: 0 1rem 1rem;
+}
+
+.caseMeta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.ageGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #4a5568;
+  font-size: 0.85rem;
+}
+
+.category {
+  background: #edf2f7;
+  color: #4a5568;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.diagnosis {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.narrativeContainer {
+  margin-bottom: 0.75rem;
+}
+
+.narrative {
+  color: #4a5568;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.narrative.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.narrative.expanded {
+  display: block;
+}
+
+.expandButton {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.expandButton:hover {
+  color: #0056b3;
+}
+
+.mseSection {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.mseLabel {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.mseText {
+  color: #4a5568;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.progressInfo {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.score, .attempts, .lastAttempt {
+  font-size: 0.8rem;
+  color: #718096;
+}
+
+.relevanceScore {
+  background: #f0fff4;
+  color: #22543d;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.cardActions {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1rem 1rem;
+}
+
+.primaryButton, .secondaryButton {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.primaryButton {
+  background: #667eea;
+  color: white;
+}
+
+.primaryButton:hover {
+  background: #5a67d8;
+  transform: translateY(-1px);
+}
+
+.secondaryButton {
+  background: #edf2f7;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+}
+
+.secondaryButton:hover {
+  background: #e2e8f0;
+  transform: translateY(-1px);
+}
+
+.quickInfo {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.quickInfoItem {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.quickInfoLabel {
+  font-weight: 600;
+}
+
+.quickInfoValue {
+  color: #a0aec0;
+}
+
+/* List view specific styles */
+.caseCard.list .cardContent {
+  flex: 1;
+  padding: 0;
+}
+
+.caseCard.list .diagnosis {
+  margin-bottom: 0.5rem;
+}
+
+.caseCard.list .narrative {
+  margin-bottom: 0.5rem;
+  -webkit-line-clamp: 2;
+}
+
+.caseCard.list .cardActions {
+  padding: 0;
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.caseCard.list .quickInfo {
+  position: static;
+  background: transparent;
+  color: #4a5568;
+  padding: 0;
+  margin-top: 0.5rem;
+  flex-direction: row;
+}
+
+.caseCard.list .quickInfoValue {
+  color: #2d3748;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .caseCard.list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .caseCard.list .cardActions {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  .caseCard.list .quickInfo {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .cardActions {
+    flex-direction: column;
+  }
+  
+  .primaryButton, .secondaryButton {
+    width: 100%;
+  }
+}

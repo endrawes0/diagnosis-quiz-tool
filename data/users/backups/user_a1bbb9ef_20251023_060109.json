@@ -1,0 +1,69 @@
+{
+  "user_id": "user_a1bbb9ef",
+  "username": "test_user",
+  "created_at": "2025-10-23T06:01:09.654774",
+  "last_updated": "2025-10-23T06:01:09.654840",
+  "last_login": null,
+  "preferences": {
+    "difficulty_preference": "mixed",
+    "focus_areas": [],
+    "notifications": true,
+    "timer_enabled": true,
+    "theme": "default",
+    "language": "en",
+    "auto_save": true,
+    "privacy_mode": false
+  },
+  "statistics": {
+    "total_cases_attempted": 0,
+    "total_correct": 0,
+    "overall_accuracy": 0.0,
+    "average_time_per_case": 0.0,
+    "favorite_category": "",
+    "last_login": null,
+    "total_session_time": 0,
+    "sessions_completed": 0
+  },
+  "completed_cases": [],
+  "progress_data": {
+    "user_id": "user_a1bbb9ef",
+    "username": "test_user",
+    "level": 1,
+    "total_xp": 0,
+    "xp_to_next_level": 100,
+    "earned_achievements": [],
+    "specialties": {},
+    "streak_data": {
+      "current_streak": 0,
+      "longest_streak": 0,
+      "streak_start_date": null,
+      "last_correct_date": null,
+      "streak_multiplier": 1.0
+    },
+    "performance_metrics": {
+      "total_cases": 0,
+      "correct_diagnoses": 0,
+      "overall_accuracy": 0.0,
+      "average_time_per_case": 0.0,
+      "category_performance": {},
+      "difficulty_performance": {},
+      "recent_performance": [],
+      "improvement_trend": 0.0
+    },
+    "unlock_status": {
+      "unlocked_difficulties": [
+        "beginner"
+      ],
+      "unlocked_categories": [],
+      "unlocked_special_features": [],
+      "level_based_unlocks": {},
+      "achievement_based_unlocks": {}
+    },
+    "daily_activity": {},
+    "last_updated": "2025-10-23T06:01:09.657548"
+  },
+  "password_hash": "aabff22426264a69fe528481125f31ae5a6e471c309415de359a0089a003e9fc",
+  "salt": "25674346d0634f8ca8135a57a53d3b48",
+  "failed_login_attempts": 0,
+  "locked_until": null
+}

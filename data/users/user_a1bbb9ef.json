@@ -1,0 +1,57 @@
+{
+  "user_id": "user_a1bbb9ef",
+  "username": "test_user",
+  "created_at": "2025-10-23T06:01:09.654774",
+  "last_updated": "2025-10-23T06:01:09.658699",
+  "last_login": "2025-10-23T06:01:09.658432",
+  "preferences": {
+    "difficulty_preference": "intermediate",
+    "focus_areas": [
+      "mood_disorders",
+      "anxiety_disorders"
+    ],
+    "notifications": true,
+    "timer_enabled": true,
+    "theme": "default",
+    "language": "en",
+    "auto_save": true,
+    "privacy_mode": false
+  },
+  "statistics": {
+    "total_cases_attempted": 1,
+    "total_correct": 1,
+    "overall_accuracy": 100.0,
+    "average_time_per_case": 120.0,
+    "favorite_category": "mood_disorders",
+    "last_login": "2025-10-23T06:01:09.658432",
+    "total_session_time": 0,
+    "sessions_completed": 1
+  },
+  "completed_cases": [
+    {
+      "case_id": "test_case_001",
+      "completed_at": "2025-10-23T06:01:09.658639",
+      "xp_earned": 50,
+      "accuracy": 100.0,
+      "time_taken": 120,
+      "attempts": 1,
+      "difficulty": "beginner",
+      "category": "mood_disorders",
+      "is_correct": true
+    }
+  ],
+  "progress_data": {
+    "user_id": "user_a1bbb9ef",
+    "username": "test_user",
+    "level": 1,
+    "total_xp": 50,
+    "xp_to_next_level": 100,
+    "earned_achievements": [],
+    "specialties": {
+      "mood_disorders": {
+        "category": "mood_disorders",
+        "level": 10,
+        "cases_completed": 1,
+        "accuracy": 100.0,
+        "xp_earned": 50,
+        "last_practiced": 

@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Diagnosis Definition",
+  "description": "Schema for diagnosis definitions in the diagnosis quiz tool",
+  "type": "object",
+  "required": [
+    "name",
+    "category",
+    "criteria_summary",
+    "prevalence_rate"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the diagnosis",
+      "minLength": 3,
+      "example": "Major Depressive Disorder"
+    },
+    "category": {
+      "type": "string",
+      "description": "Diagnostic category grouping",
+      "enum": [
+        "mood_disorders",
+        "psychotic_disorders",
+        "anxiety_disorders",
+        "personality_disorders",
+        "substance_use_disorders",
+        "neurodevelopmental_disorders",
+        "trauma_stressor_related",
+        "eating_disorders",
+        "obsessive_compulsive",
+        "somatic_symptom",
+        "sleep_wake_disorders",
+        "sexual_dysfunctions",
+        "gender_dysphoria",
+        "disruptive_impulse_control",
+        "neurocognitive_disorders"
+      ],
+      "example": "mood_disorders"
+    },
+    "criteria_summary": {
+      "type": "string",
+      "description": "Summary of diagnostic criteria based on DSM-5 or ICD-10",
+      "minLength": 50,
+      "example": "Five or more of the following symptoms present during the same 2-week period and represent a change from previous functioning: depressed mood, diminished interest or pleasure, significant weight change, sleep disturbance, psychomotor agitation or retardation, fatigue, feelings of worthlessness or guilt, diminished concentration, recurrent thoughts of death."
+    },
+    "prevalence_rate": {
+      "type": "number",
+      "description": "Annual prevalence rate in the general population (percentage)",
+      "minimum": 0,
+      "maximum": 100,
+      "example": 7.1
+    },
+    "icd_code": {
+      "type": "string",
+      "description": "ICD-10/ICD-11 classification code (optional)",
+      "pattern": "^[A-Z][0-9]{2}(\\.[0-9])?$",
+      "example": "F32.9"
+    },
+    "dsm_code": {
+      "type": "string",
+      "description": "DSM-5 classification code (optional)",
+      "pattern": "^[0-9]{3}(\\.[0-9]{2})?$",
+      "example": "296.20"
+    },
+    "differential_diagnoses": {
+      "type": "array",
+      "description": "Common differential diagnoses (optional)",
+      "items": {
+        "type": "string",
+        "description": "Name of differential diagnosis"
+      },
+      "example": [
+        "Persistent Depressive Disorder",
+        "Adjustment Disorder with Depressed Mood",
+        "Bipolar Disorder"
+      ]
+    },
+    "key_features": {
+      "type": "array",
+      "description": "Key clinical features that help identify this diagnosis (optional)",
+      "items": {
+        "type": "string",
+        "description": "Key clinical feature"
+      },
+      "example": [
+        "Depressed mood most of the day",
+        "Markedly diminished interest or pleasure",
+        "Significant weight loss or gain",
+        "Insomnia or hypersomnia",
+        "Psychomotor agitation or retardation"
+      ]
+    },
+    "age_specific_notes": {
+      "type": "object",
+      "description": "Age-specific presentation notes (optional)",
+      "properties": {
+        "child": {
+          "type": "string",
+          "description": "Notes specific to child presentation",
+          "example": "Irritability may be more prominent than sadness"
+        },
+        "adolescent": {
+          "type": "string",
+          "description": "Notes specific to adolescent presentation",
+          "example": "May present with academic decline and social withdrawal"
+        },
+        "adult": {
+          "type": "string",
+          "description": "Notes specific to adult presentation",
+          "example": "Often presents with work-related difficulties"
+        },
+        "older_adult": {
+          "type": "string",
+          "description": "Notes specific to older adult presentation",
+          "example": "May present with somatic complaints and cognitive complaints"
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "example": {
+    "name": "Major Depressive Disorder",
+    "category": "mood_disorders",
+    "criteria_summary": "Five or more depressive symptoms present during the same 2-week period, representing a change from previous functioning, with at least one symptom being depressed mood or loss of interest/pleasure. Symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.",
+    "prevalence_rate": 7.1,
+    "icd_code": "F32.9",
+    "dsm_code": "296.20",
+    "differential_diagnoses": [
+      "Persistent Depressive Disorder",
+      "Adjustment Disorder with Depressed Mood",
+      "Bipolar Disorder"
+    ],
+    "key_features": [
+      "Depressed mood most of the day",
+      "Markedly diminished interest or pleasure",
+      "Significant weight loss or gain",
+      "Insomnia or hypersomnia",
+      "Psychomotor agitation or retardation",
+      "Fatigue or loss of energy",
+      "Feelings of worthlessness or excessive guilt",
+      "Diminished ability to think or concentrate",
+      "Recurrent thoughts of death"
+    ],
+    "age_specific_notes": {
+      "child": "Irritability may be more prominent than sadness; may present with somatic complaints",
+      "adolescent": "Often presents with academic decline, social withdrawal, and risk-taking behaviors",
+      "adult": "Typically presents with work-related difficulties and relationship problems",
+      "older_adult": "May present with somatic complaints, cognitive complaints, and functional decline"
+    }
+  }
+}
